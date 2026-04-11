@@ -1471,8 +1471,8 @@ export function ComparePage() {
           <code className="file-path">northrop.json</code>, <code className="file-path">l3harris.json</code>,{" "}
           <code className="file-path">boeing.json</code>, <code className="file-path">embraer.json</code>,{" "}
           <code className="file-path">saab.json</code> — בוחרים חברות,
-          רואים חפיפת שנים משותפת, השוואה לפי פרמטרים,
-          מטריצה, פיזור, ואז (בסרגל השנה) עמודות, רדאר וטבלת ערכים.
+          סדר התצוגה: בחירת חברות, השוואה לפי פרמטר, פיזור צירים, דוגמת עמודות מקובצות וטבלת ערכים לשנה
+          (בסרגל השנה), ואחריהם שאר הדוגמאות והטבלאות (מגמות שווקים, מטריצה, עמודות אופקיות, רדאר ועוד).
         </p>
         <div className="compare-company-picker" role="group" aria-label="בחירת חברות להשוואה">
           <span className="compare-toolbar__label">חברות להשוואה:</span>
@@ -1499,71 +1499,6 @@ export function ComparePage() {
         </div>
         {!canCompare && (
           <p className="muted">סמנו לפחות שתי חברות כדי להפעיל השוואות וגרפים.</p>
-        )}
-        {canCompare && overlapYears.length > 0 && (
-          <div className="compare-param-narrative">
-            <p className="compare-param-narrative__p">
-              <span className="compare-param-narrative__k">בדיקת כיסוי פרמטרים:</span> טווח שנים באתר{" "}
-              {Math.min(...overlapYears)}–{Math.max(...overlapYears)} (איחוד כל החברות הנבחרות — שנה בלי דוח אצל
-              חברה מסוימת תופיע כ־— בגרפים).
-            </p>
-            {coverageRows.map((r) => (
-              <p key={r.slug} className="compare-param-narrative__p">
-                <span className="compare-param-narrative__k">{r.shortName}:</span>{" "}
-                {r.yearsWithoutRow.length > 0 && (
-                  <span>
-                    אין שורת נתונים לשנים {r.yearsWithoutRow.join(", ")}.{" "}
-                  </span>
-                )}
-                {r.missing.length === 0
-                  ? r.yearsWithoutRow.length === 0
-                    ? "קיים בכל הפרמטרים בכל השנים."
-                    : "בשאר השנים — קיים בכל הפרמטרים."
-                  : `בשנים שיש שורה — חסר בפרמטרים: ${r.missing.join(" | ")}`}
-              </p>
-            ))}
-          </div>
-        )}
-        {compareInsights && compareInsights.length > 0 && (
-          <div className="compare-insights">
-            <h2 className="compare-insights__h">מה הנתונים מלמדים?</h2>
-            <p className="compare-insights__sub muted">
-              פרשנות מילולית (מגמות, השוואה ישירה, מסקנה זהירה) — לא ייעוץ השקעות.
-            </p>
-            {compareInsights.map((paragraph, i) => (
-              <p key={i} className="compare-insights__p">
-                {paragraph}
-              </p>
-            ))}
-          </div>
-        )}
-        {executiveBrief && (
-          <section className="compare-exec">
-            <h2 className="compare-exec__h">Executive Brief (McKinsey-style)</h2>
-            <p className="compare-exec__sub muted">
-              דירוג יחסי 1-5 לפי ארבעה צירים: Growth, Profitability, Cash Conversion, Resilience
-              (חלון {executiveBrief.yearsLabel}).
-            </p>
-            <div className="compare-exec__grid">
-              {executiveBrief.cards.map((c) => (
-                <article key={c.name} className="compare-exec-card">
-                  <h3 className="compare-exec-card__title">{c.name}</h3>
-                  <p className="compare-exec-card__overall">
-                    ציון כולל: {c.overall != null ? c.overall.toFixed(1) : "—"} / 5
-                  </p>
-                  <ul className="compare-exec-card__list">
-                    {c.items.map((it) => (
-                      <li key={it.k}>
-                        <span>{it.k}</span>
-                        <strong>{it.v != null ? it.v.toFixed(1) : "—"}</strong>
-                        <span className="muted">({it.rawFmt})</span>
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
         )}
       </header>
 
@@ -1656,6 +1591,255 @@ export function ComparePage() {
             </div>
           </section>
 
+          <section className="compare-demo" aria-labelledby="compare-scatter">
+            <h2 id="compare-scatter">פיזור: ציר X מול ציר Y</h2>
+            <p className="muted compare-demo__desc">
+              כל נקודה היא שנה אחת (מסומנת בטולטיפ). שני צירים נבחרים — למשל הכנסות מול רווח נקי, או
+              צבר מול הכנסות.
+            </p>
+            <div className="compare-scatter-controls">
+              <div className="compare-toolbar compare-toolbar--inline">
+                <label htmlFor="scatter-x" className="compare-toolbar__label">
+                  ציר X:
+                </label>
+                <select
+                  id="scatter-x"
+                  className="compare-toolbar__select compare-toolbar__select--wide"
+                  value={scatterXId}
+                  onChange={(e) => setScatterXId(e.target.value)}
+                >
+                  {METRIC_DEFS.map((d) => (
+                    <option key={d.id} value={d.id}>
+                      {d.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="compare-toolbar compare-toolbar--inline">
+                <label htmlFor="scatter-y" className="compare-toolbar__label">
+                  ציר Y:
+                </label>
+                <select
+                  id="scatter-y"
+                  className="compare-toolbar__select compare-toolbar__select--wide"
+                  value={scatterYId}
+                  onChange={(e) => setScatterYId(e.target.value)}
+                >
+                  {METRIC_DEFS.map((d) => (
+                    <option key={d.id} value={d.id}>
+                      {d.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            <div className="chart-wrap chart-wrap--scatter">
+              <ResponsiveContainer width="100%" height="100%">
+                <ScatterChart margin={{ top: 12, right: 16, left: 8, bottom: 12 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                  <XAxis
+                    type="number"
+                    dataKey="x"
+                    name={xDef.label}
+                    tick={{ fill: "#9aa8bc", fontSize: 11 }}
+                    label={{ value: xDef.label, position: "bottom", fill: "#9aa8bc", fontSize: 11 }}
+                  />
+                  <YAxis
+                    type="number"
+                    dataKey="y"
+                    name={yDef.label}
+                    tick={{ fill: "#9aa8bc", fontSize: 11 }}
+                    label={{
+                      value: yDef.label,
+                      angle: -90,
+                      position: "insideLeft",
+                      fill: "#9aa8bc",
+                      fontSize: 11,
+                    }}
+                  />
+                  <Tooltip
+                    contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
+                    formatter={(v: number, name) => {
+                      const axis = name === "x" ? xDef : yDef;
+                      return [fmtMetricCell(v, axis), axis.label];
+                    }}
+                    labelFormatter={(_, payload) => {
+                      const p = payload?.[0]?.payload as { year?: number } | undefined;
+                      return p?.year != null ? `שנה ${p.year}` : "";
+                    }}
+                  />
+                  <Legend wrapperStyle={{ direction: "rtl" }} />
+                  {selectedCompanies.map((c) => (
+                    <Scatter key={c.slug} name={c.shortName} data={scatterBySlug[c.slug]} fill={c.color} />
+                  ))}
+                </ScatterChart>
+              </ResponsiveContainer>
+            </div>
+          </section>
+        </>
+      )}
+
+      {canCompare && overlapYears.length > 0 && (
+        <div className="compare-toolbar">
+          <label htmlFor="compare-year" className="compare-toolbar__label">
+            שנה לדוגמאות 3 ו־6 (עמודות מקובצות וטבלת ערכים); דוגמאות 4–5 מופיעות אחרי המטריצה והמגמות:
+          </label>
+          <select
+            id="compare-year"
+            className="compare-toolbar__select"
+            value={year ?? ""}
+            onChange={(e) => setYear(Number(e.target.value))}
+          >
+            {overlapYears.map((y) => (
+              <option key={y} value={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+
+      {year != null && rowsForSelectedYear && (
+        <>
+          <section className="compare-demo" aria-labelledby="demo-3">
+            <h2 id="demo-3">דוגמה 3: עמודות מקובצות (סכומים במיליוני דולר)</h2>
+            <p className="muted compare-demo__desc">
+              השוואה ויזואלית של מדדים באותו סדר גודל; צבר הזמנות בגרף נפרד כי הסקאלה גבוהה יותר.
+            </p>
+            <div className="chart-wrap chart-wrap--medium">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={groupedMain}
+                  margin={{ top: 8, right: 12, left: 8, bottom: 8 }}
+                  barGap={4}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                  <XAxis dataKey="name" tick={{ fill: "#9aa8bc", fontSize: 11 }} />
+                  <YAxis tick={{ fill: "#9aa8bc" }} />
+                  <Tooltip
+                    contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
+                    formatter={(v: number | string | undefined) =>
+                      v == null || v === "" || Number.isNaN(Number(v)) ? "—" : fmtNum(Number(v), 0)
+                    }
+                  />
+                  <Legend wrapperStyle={{ direction: "rtl" }} />
+                  {selectedCompanies.map((c) => (
+                    <Bar
+                      key={c.slug}
+                      dataKey={c.slug}
+                      name={c.shortName}
+                      fill={c.color}
+                      radius={[4, 4, 0, 0]}
+                    >
+                      <LabelList
+                        dataKey={c.slug}
+                        position="top"
+                        fill="#e8eef7"
+                        fontSize={10}
+                        formatter={(v: number | string | undefined) =>
+                          v == null || v === "" || Number.isNaN(Number(v)) ? "" : fmtNum(Number(v), 0)
+                        }
+                      />
+                    </Bar>
+                  ))}
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+            {groupedBacklog.length > 0 && (
+              <div className="chart-wrap chart-wrap--short">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={groupedBacklog} margin={{ top: 8, right: 12, left: 8, bottom: 8 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                    <XAxis dataKey="name" tick={{ fill: "#9aa8bc" }} />
+                    <YAxis tick={{ fill: "#9aa8bc" }} />
+                    <Tooltip
+                      contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
+                      formatter={(v: number | string | undefined) =>
+                        v == null || v === "" || Number.isNaN(Number(v)) ? "—" : fmtNum(Number(v), 0)
+                      }
+                    />
+                    <Legend wrapperStyle={{ direction: "rtl" }} />
+                    {selectedCompanies.map((c) => (
+                      <Bar key={c.slug} dataKey={c.slug} name={c.shortName} fill={c.color} radius={[4, 4, 0, 0]}>
+                        <LabelList
+                          dataKey={c.slug}
+                          position="top"
+                          fill="#e8eef7"
+                          fontSize={10}
+                          formatter={(v: number | string | undefined) =>
+                            v == null || v === "" || Number.isNaN(Number(v)) ? "" : fmtNum(Number(v), 0)
+                          }
+                        />
+                      </Bar>
+                    ))}
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            )}
+          </section>
+
+          <section className="compare-demo" aria-labelledby="demo-6-delta">
+            <h2 id="demo-6-delta">
+              דוגמה 6: ערכים לשנה {year}
+              {pairwiseDeltaLabel ? ` והפרש (${pairwiseDeltaLabel})` : ""}
+            </h2>
+            <p className="muted compare-demo__desc">
+              {selectedCompanies.length === 2
+                ? "עמודת ההפרש = החברה הראשונה ברשימת הבחירה פחות השנייה (מיליוני דולר)."
+                : "כאשר נבחרות יותר משתי חברות — מוצגים ערכי המדד לכל חברה; אין עמודת הפרש יחידה."}
+            </p>
+            <div className="table-scroll">
+              <table className="compare-table compare-table--delta">
+                <thead>
+                  <tr>
+                    <th>מדד</th>
+                    {selectedCompanies.map((c) => (
+                      <th key={c.slug}>{c.shortName}</th>
+                    ))}
+                    {pairwiseDeltaLabel && <th>הפרש</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {snapshotTableRows.map(({ key, bySlug }) => {
+                    const a = selectedCompanies[0]?.slug;
+                    const b = selectedCompanies[1]?.slug;
+                    let d: number | null = null;
+                    if (a && b && bySlug[a] != null && bySlug[b] != null) {
+                      d = bySlug[a]! - bySlug[b]!;
+                    }
+                    return (
+                      <tr key={key}>
+                        <td>{key}</td>
+                        {selectedCompanies.map((c) => (
+                          <td key={c.slug}>{bySlug[c.slug] != null ? fmtNum(bySlug[c.slug], 0) : "—"}</td>
+                        ))}
+                        {pairwiseDeltaLabel && (
+                          <td
+                            className={
+                              d == null
+                                ? ""
+                                : d < 0
+                                  ? "compare-delta--neg"
+                                  : d > 0
+                                    ? "compare-delta--pos"
+                                    : "compare-delta--zero"
+                            }
+                          >
+                            {d != null ? fmtNum(d, 0) : "—"}
+                          </td>
+                        )}
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </>
+      )}
+
+      {canCompare && overlapYears.length > 0 && (
+        <>
           <section className="compare-demo" aria-labelledby="compare-market-trends">
             <h2 id="compare-market-trends">פרמטר חדש: מגמות בשווקים</h2>
             <p className="muted compare-demo__desc">
@@ -1905,194 +2089,11 @@ export function ComparePage() {
               </div>
             </section>
           )}
-
-          <section className="compare-demo" aria-labelledby="compare-scatter">
-            <h2 id="compare-scatter">פיזור: ציר X מול ציר Y</h2>
-            <p className="muted compare-demo__desc">
-              כל נקודה היא שנה אחת (מסומנת בטולטיפ). שני צירים נבחרים — למשל הכנסות מול רווח נקי, או
-              צבר מול הכנסות.
-            </p>
-            <div className="compare-scatter-controls">
-              <div className="compare-toolbar compare-toolbar--inline">
-                <label htmlFor="scatter-x" className="compare-toolbar__label">
-                  ציר X:
-                </label>
-                <select
-                  id="scatter-x"
-                  className="compare-toolbar__select compare-toolbar__select--wide"
-                  value={scatterXId}
-                  onChange={(e) => setScatterXId(e.target.value)}
-                >
-                  {METRIC_DEFS.map((d) => (
-                    <option key={d.id} value={d.id}>
-                      {d.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="compare-toolbar compare-toolbar--inline">
-                <label htmlFor="scatter-y" className="compare-toolbar__label">
-                  ציר Y:
-                </label>
-                <select
-                  id="scatter-y"
-                  className="compare-toolbar__select compare-toolbar__select--wide"
-                  value={scatterYId}
-                  onChange={(e) => setScatterYId(e.target.value)}
-                >
-                  {METRIC_DEFS.map((d) => (
-                    <option key={d.id} value={d.id}>
-                      {d.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-            <div className="chart-wrap chart-wrap--scatter">
-              <ResponsiveContainer width="100%" height="100%">
-                <ScatterChart margin={{ top: 12, right: 16, left: 8, bottom: 12 }}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                  <XAxis
-                    type="number"
-                    dataKey="x"
-                    name={xDef.label}
-                    tick={{ fill: "#9aa8bc", fontSize: 11 }}
-                    label={{ value: xDef.label, position: "bottom", fill: "#9aa8bc", fontSize: 11 }}
-                  />
-                  <YAxis
-                    type="number"
-                    dataKey="y"
-                    name={yDef.label}
-                    tick={{ fill: "#9aa8bc", fontSize: 11 }}
-                    label={{
-                      value: yDef.label,
-                      angle: -90,
-                      position: "insideLeft",
-                      fill: "#9aa8bc",
-                      fontSize: 11,
-                    }}
-                  />
-                  <Tooltip
-                    contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
-                    formatter={(v: number, name) => {
-                      const axis = name === "x" ? xDef : yDef;
-                      return [fmtMetricCell(v, axis), axis.label];
-                    }}
-                    labelFormatter={(_, payload) => {
-                      const p = payload?.[0]?.payload as { year?: number } | undefined;
-                      return p?.year != null ? `שנה ${p.year}` : "";
-                    }}
-                  />
-                  <Legend wrapperStyle={{ direction: "rtl" }} />
-                  {selectedCompanies.map((c) => (
-                    <Scatter key={c.slug} name={c.shortName} data={scatterBySlug[c.slug]} fill={c.color} />
-                  ))}
-                </ScatterChart>
-              </ResponsiveContainer>
-            </div>
-          </section>
         </>
-      )}
-
-      {canCompare && overlapYears.length > 0 && (
-        <div className="compare-toolbar">
-          <label htmlFor="compare-year" className="compare-toolbar__label">
-            שנה לדוגמאות לפי שנה אחת (עמודות, רדאר, טבלת ערכים):
-          </label>
-          <select
-            id="compare-year"
-            className="compare-toolbar__select"
-            value={year ?? ""}
-            onChange={(e) => setYear(Number(e.target.value))}
-          >
-            {overlapYears.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </div>
       )}
 
       {year != null && rowsForSelectedYear && (
         <>
-          <section className="compare-demo" aria-labelledby="demo-3">
-            <h2 id="demo-3">דוגמה 3: עמודות מקובצות (סכומים במיליוני דולר)</h2>
-            <p className="muted compare-demo__desc">
-              השוואה ויזואלית של מדדים באותו סדר גודל; צבר הזמנות בגרף נפרד כי הסקאלה גבוהה יותר.
-            </p>
-            <div className="chart-wrap chart-wrap--medium">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart
-                  data={groupedMain}
-                  margin={{ top: 8, right: 12, left: 8, bottom: 8 }}
-                  barGap={4}
-                >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                  <XAxis dataKey="name" tick={{ fill: "#9aa8bc", fontSize: 11 }} />
-                  <YAxis tick={{ fill: "#9aa8bc" }} />
-                  <Tooltip
-                    contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
-                    formatter={(v: number | string | undefined) =>
-                      v == null || v === "" || Number.isNaN(Number(v)) ? "—" : fmtNum(Number(v), 0)
-                    }
-                  />
-                  <Legend wrapperStyle={{ direction: "rtl" }} />
-                  {selectedCompanies.map((c) => (
-                    <Bar
-                      key={c.slug}
-                      dataKey={c.slug}
-                      name={c.shortName}
-                      fill={c.color}
-                      radius={[4, 4, 0, 0]}
-                    >
-                      <LabelList
-                        dataKey={c.slug}
-                        position="top"
-                        fill="#e8eef7"
-                        fontSize={10}
-                        formatter={(v: number | string | undefined) =>
-                          v == null || v === "" || Number.isNaN(Number(v)) ? "" : fmtNum(Number(v), 0)
-                        }
-                      />
-                    </Bar>
-                  ))}
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-            {groupedBacklog.length > 0 && (
-              <div className="chart-wrap chart-wrap--short">
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={groupedBacklog} margin={{ top: 8, right: 12, left: 8, bottom: 8 }}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                    <XAxis dataKey="name" tick={{ fill: "#9aa8bc" }} />
-                    <YAxis tick={{ fill: "#9aa8bc" }} />
-                    <Tooltip
-                      contentStyle={{ background: "#1a2332", border: "1px solid #334155" }}
-                      formatter={(v: number | string | undefined) =>
-                        v == null || v === "" || Number.isNaN(Number(v)) ? "—" : fmtNum(Number(v), 0)
-                      }
-                    />
-                    <Legend wrapperStyle={{ direction: "rtl" }} />
-                    {selectedCompanies.map((c) => (
-                      <Bar key={c.slug} dataKey={c.slug} name={c.shortName} fill={c.color} radius={[4, 4, 0, 0]}>
-                        <LabelList
-                          dataKey={c.slug}
-                          position="top"
-                          fill="#e8eef7"
-                          fontSize={10}
-                          formatter={(v: number | string | undefined) =>
-                            v == null || v === "" || Number.isNaN(Number(v)) ? "" : fmtNum(Number(v), 0)
-                          }
-                        />
-                      </Bar>
-                    ))}
-                  </BarChart>
-                </ResponsiveContainer>
-              </div>
-            )}
-          </section>
-
           <section className="compare-demo" aria-labelledby="demo-4">
             <h2 id="demo-4">דוגמה 4: עמודות אופקיות (אותם נתונים כמו בדוגמה 3)</h2>
             <p className="muted compare-demo__desc">חלופה לקריאת שמות מדדים ארוכים — המדד על ציר Y.</p>
@@ -2168,65 +2169,71 @@ export function ComparePage() {
               </p>
             ))}
           </section>
-
-          <section className="compare-demo" aria-labelledby="demo-6-delta">
-            <h2 id="demo-6-delta">
-              דוגמה 6: ערכים לשנה {year}
-              {pairwiseDeltaLabel ? ` והפרש (${pairwiseDeltaLabel})` : ""}
-            </h2>
-            <p className="muted compare-demo__desc">
-              {selectedCompanies.length === 2
-                ? "עמודת ההפרש = החברה הראשונה ברשימת הבחירה פחות השנייה (מיליוני דולר)."
-                : "כאשר נבחרות יותר משתי חברות — מוצגים ערכי המדד לכל חברה; אין עמודת הפרש יחידה."}
-            </p>
-            <div className="table-scroll">
-              <table className="compare-table compare-table--delta">
-                <thead>
-                  <tr>
-                    <th>מדד</th>
-                    {selectedCompanies.map((c) => (
-                      <th key={c.slug}>{c.shortName}</th>
-                    ))}
-                    {pairwiseDeltaLabel && <th>הפרש</th>}
-                  </tr>
-                </thead>
-                <tbody>
-                  {snapshotTableRows.map(({ key, bySlug }) => {
-                    const a = selectedCompanies[0]?.slug;
-                    const b = selectedCompanies[1]?.slug;
-                    let d: number | null = null;
-                    if (a && b && bySlug[a] != null && bySlug[b] != null) {
-                      d = bySlug[a]! - bySlug[b]!;
-                    }
-                    return (
-                      <tr key={key}>
-                        <td>{key}</td>
-                        {selectedCompanies.map((c) => (
-                          <td key={c.slug}>{bySlug[c.slug] != null ? fmtNum(bySlug[c.slug], 0) : "—"}</td>
-                        ))}
-                        {pairwiseDeltaLabel && (
-                          <td
-                            className={
-                              d == null
-                                ? ""
-                                : d < 0
-                                  ? "compare-delta--neg"
-                                  : d > 0
-                                    ? "compare-delta--pos"
-                                    : "compare-delta--zero"
-                            }
-                          >
-                            {d != null ? fmtNum(d, 0) : "—"}
-                          </td>
-                        )}
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </section>
         </>
+      )}
+
+      {canCompare && overlapYears.length > 0 && (
+        <div className="compare-param-narrative">
+          <p className="compare-param-narrative__p">
+            <span className="compare-param-narrative__k">בדיקת כיסוי פרמטרים:</span> טווח שנים באתר{" "}
+            {Math.min(...overlapYears)}–{Math.max(...overlapYears)} (איחוד כל החברות הנבחרות — שנה בלי דוח אצל חברה
+            מסוימת תופיע כ־— בגרפים).
+          </p>
+          {coverageRows.map((r) => (
+            <p key={r.slug} className="compare-param-narrative__p">
+              <span className="compare-param-narrative__k">{r.shortName}:</span>{" "}
+              {r.yearsWithoutRow.length > 0 && (
+                <span>אין שורת נתונים לשנים {r.yearsWithoutRow.join(", ")}. </span>
+              )}
+              {r.missing.length === 0
+                ? r.yearsWithoutRow.length === 0
+                  ? "קיים בכל הפרמטרים בכל השנים."
+                  : "בשאר השנים — קיים בכל הפרמטרים."
+                : `בשנים שיש שורה — חסר בפרמטרים: ${r.missing.join(" | ")}`}
+            </p>
+          ))}
+        </div>
+      )}
+      {compareInsights && compareInsights.length > 0 && (
+        <div className="compare-insights">
+          <h2 className="compare-insights__h">מה הנתונים מלמדים?</h2>
+          <p className="compare-insights__sub muted">
+            פרשנות מילולית (מגמות, השוואה ישירה, מסקנה זהירה) — לא ייעוץ השקעות.
+          </p>
+          {compareInsights.map((paragraph, i) => (
+            <p key={i} className="compare-insights__p">
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      )}
+      {executiveBrief && (
+        <section className="compare-exec">
+          <h2 className="compare-exec__h">Executive Brief (McKinsey-style)</h2>
+          <p className="compare-exec__sub muted">
+            דירוג יחסי 1-5 לפי ארבעה צירים: Growth, Profitability, Cash Conversion, Resilience (חלון{" "}
+            {executiveBrief.yearsLabel}).
+          </p>
+          <div className="compare-exec__grid">
+            {executiveBrief.cards.map((c) => (
+              <article key={c.name} className="compare-exec-card">
+                <h3 className="compare-exec-card__title">{c.name}</h3>
+                <p className="compare-exec-card__overall">
+                  ציון כולל: {c.overall != null ? c.overall.toFixed(1) : "—"} / 5
+                </p>
+                <ul className="compare-exec-card__list">
+                  {c.items.map((it) => (
+                    <li key={it.k}>
+                      <span>{it.k}</span>
+                      <strong>{it.v != null ? it.v.toFixed(1) : "—"}</strong>
+                      <span className="muted">({it.rawFmt})</span>
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </section>
       )}
 
     </>
