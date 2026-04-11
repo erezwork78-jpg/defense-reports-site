@@ -1,0 +1,273 @@
+{
+  "company": {
+    "slug": "iai",
+    "nameHe": "תעשייה אווירית",
+    "nameEn": "Israel Aerospace Industries Ltd.",
+    "reportsFolder": "01. IAI"
+  },
+  "currencyNote": "מיליוני דולר ארה״ב (MUSD) אם לא צוין אחרת; ערכים null עד שממלאים מהדוחות.",
+  "insights": [
+    "נתוני תזרים, מאזן, צבר הזמנות, מו״פ וקאפקס הוזנו מדוחות תע״א בפורמט PDF/DOCX בתיקיית הדוחות (מיליוני דולר ארה״ב).",
+    "2025: ערכי מאזן ותזרים נלקחו מדוח תקופתי ושנתי 2025 (IAI); שורת רכישת נכסים קבועים/קאפקס בדוח הכספי המאוחד ב־PDF אינה נשלפת כטקסט (ייתכן תמונה) — השדה capexMUSD נשאר null עד חילוץ ידני מדוח מאזן/תזרים מודפס.",
+    "הוצאות תפעוליות נבחרות מתע״א: מחקר ופיתוח (researchDevelopmentMUSD), מכירה ושיווק (marketingSalesMUSD), הנהלה וכלליות (generalAdminMUSD). לשנת 2025 חולצו מסעיף 2.5.2 בדוח (מסך הרבעון הרביעי והשנה כולה): מו״פ 318, מכירה ושיווק 139, הנהלה וכלליות 223.",
+    "לשנים 2020–2024 הערכים אומתו מול שורות הביאור/דוחות שנתיים (לרבות דוח כספי 2024 שבו מופיעות במפורש שלוש השורות).",
+    "פילוח גיאוגרפי (salesByRegionPct): אחוזים מתוך טבלת התפלגות מכירות בתחום המט״ח בדוח התקופתי (לא בהכרח זהה לפילוח כלל דוחות אלביט). restOfWorld = אפריקה + דרום אמריקה (ובשנים מסוימות «אפריקה ואוסטרליה»).",
+    "איכות תזרים (מחושב באתר): תזרים חופשי פשוט = תזרים תפעולי − CapEx (CapEx בנתונים כחיוב חיובי). יחס תזרים תפעולי לרווח נקי = OCF ÷ רווח נקי (לא מוגדר כשהרווח הנקי ~0).",
+    "פילוח הכנסות לפי מגזר: אופציונלי — שדה revenueBySegmentMUSD (אובייקט מפתח→מיליון $) כשמחלצים מדוח; עד אז הטבלה לא מוצגת."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 4184,
+      "backlogMUSD": 12612,
+      "netIncomeMUSD": 133,
+      "operatingIncomeMUSD": 175,
+      "grossMarginPct": 17.4,
+      "operatingCashFlowMUSD": 203,
+      "investingCashFlowMUSD": -272,
+      "financingCashFlowMUSD": 208,
+      "totalAssetsMUSD": 6257,
+      "totalLiabilitiesMUSD": 5175,
+      "equityMUSD": 1082,
+      "capexMUSD": 217,
+      "researchDevelopmentMUSD": 196,
+      "ebitdaMUSD": 298,
+      "employees": null,
+      "marketingSalesMUSD": 87,
+      "salesByRegionPct": {
+        "israel": 49,
+        "northAmerica": 1,
+        "europe": 3,
+        "asiaPacific": 46,
+        "restOfWorld": 1
+      },
+      "notes": "מאזן/תזרים/קאפקס/מו״פ מדוח תקופתי 2020 ומדוח 2021 (השוואות). התחייבויות = נכסים − הון.",
+      "generalAdminMUSD": 186
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 4477,
+      "backlogMUSD": 13427,
+      "netIncomeMUSD": 148,
+      "operatingIncomeMUSD": 195,
+      "grossMarginPct": 17.6,
+      "operatingCashFlowMUSD": 146,
+      "investingCashFlowMUSD": -180,
+      "financingCashFlowMUSD": -239,
+      "totalAssetsMUSD": 6157,
+      "totalLiabilitiesMUSD": 4936,
+      "equityMUSD": 1221,
+      "capexMUSD": 177,
+      "researchDevelopmentMUSD": 204,
+      "ebitdaMUSD": 325,
+      "employees": null,
+      "marketingSalesMUSD": 101,
+      "salesByRegionPct": {
+        "israel": 45,
+        "northAmerica": 3,
+        "europe": 3,
+        "asiaPacific": 48,
+        "restOfWorld": 1
+      },
+      "notes": "תזרים מסכם דירקטוריון (דוח 2021). מאזן מדוח 2022 (עמוד מאזן מאוחד).",
+      "generalAdminMUSD": 179
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 4973,
+      "backlogMUSD": 15612,
+      "netIncomeMUSD": 213,
+      "operatingIncomeMUSD": 280,
+      "grossMarginPct": 18.1,
+      "operatingCashFlowMUSD": 797,
+      "investingCashFlowMUSD": -538,
+      "financingCashFlowMUSD": -244,
+      "totalAssetsMUSD": 6922,
+      "totalLiabilitiesMUSD": 5688,
+      "equityMUSD": 1234,
+      "capexMUSD": 198,
+      "researchDevelopmentMUSD": 215,
+      "ebitdaMUSD": 415,
+      "employees": null,
+      "marketingSalesMUSD": 107,
+      "salesByRegionPct": {
+        "israel": 42,
+        "northAmerica": 2,
+        "europe": 2,
+        "asiaPacific": 52,
+        "restOfWorld": 2
+      },
+      "notes": "תזרים מדוח 2023. מאזן מדוח 2023.",
+      "generalAdminMUSD": 192
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 5327,
+      "backlogMUSD": 17711,
+      "netIncomeMUSD": 318,
+      "operatingIncomeMUSD": 376,
+      "grossMarginPct": 18.6,
+      "operatingCashFlowMUSD": 889,
+      "investingCashFlowMUSD": -574,
+      "financingCashFlowMUSD": -2,
+      "totalAssetsMUSD": 7727,
+      "totalLiabilitiesMUSD": 6232,
+      "equityMUSD": 1495,
+      "capexMUSD": 122,
+      "researchDevelopmentMUSD": 275,
+      "ebitdaMUSD": 664,
+      "employees": null,
+      "marketingSalesMUSD": 118,
+      "salesByRegionPct": {
+        "israel": 40,
+        "northAmerica": 2,
+        "europe": 5,
+        "asiaPacific": 49,
+        "restOfWorld": 4
+      },
+      "notes": "EBITDA 664 ורווח תפעולי 376 מדוח כספי 2024 (עמודי דירקטוריון). קאפקס 122 מתזרים מאוחד בדוח 2023.",
+      "generalAdminMUSD": 199
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 6112,
+      "backlogMUSD": 24946,
+      "netIncomeMUSD": 493,
+      "operatingIncomeMUSD": 498,
+      "grossMarginPct": 19.2,
+      "operatingCashFlowMUSD": 2717,
+      "investingCashFlowMUSD": -2971,
+      "financingCashFlowMUSD": -68,
+      "totalAssetsMUSD": 10396,
+      "totalLiabilitiesMUSD": 8526,
+      "equityMUSD": 1870,
+      "capexMUSD": 232,
+      "researchDevelopmentMUSD": 333,
+      "ebitdaMUSD": 792,
+      "employees": null,
+      "marketingSalesMUSD": 127,
+      "salesByRegionPct": {
+        "israel": 41,
+        "northAmerica": 3,
+        "europe": 19,
+        "asiaPacific": 32,
+        "restOfWorld": 5
+      },
+      "notes": "רווח תפעולי 498 ו-EBITDA 792 מדוח דירקטוריון/דוח כספי 2024. צבר הזמנות 24,946 מסעיף צבר הזמנות.",
+      "generalAdminMUSD": 210
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 7384,
+      "backlogMUSD": 28750,
+      "netIncomeMUSD": 712,
+      "operatingIncomeMUSD": 751,
+      "grossMarginPct": 19.4,
+      "operatingCashFlowMUSD": 2105,
+      "investingCashFlowMUSD": -2990,
+      "financingCashFlowMUSD": -396,
+      "totalAssetsMUSD": 12014,
+      "totalLiabilitiesMUSD": 9620,
+      "equityMUSD": 2394,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": 318,
+      "ebitdaMUSD": 1082,
+      "employees": 15151,
+      "marketingSalesMUSD": 139,
+      "salesByRegionPct": {
+        "israel": 41,
+        "northAmerica": 2,
+        "europe": 24,
+        "asiaPacific": 26,
+        "restOfWorld": 7
+      },
+      "notes": "הכנסות 7,384, רווח תפעולי 751 ושיעור גולמי ~19.4% מפילוח לפי מגזרים (חלק א׳, סעיף 7.1, עמ׳ ~10 ב־PDF). צבר הזמנות 28,750 ליום 31.12.2025 (טבלת פריסה בדוח 2025). רווח נקי 712 ו־EBITDA 1,082 מתמצית מאזן/רווח בדוח (DOCX). מאזן מאוחד 31.12.2025: נכסים 12,014, התחייבויות 9,620, הון 2,394. תזרים: פעילות שוטפת 2,105, השקעות (2,990), מימון (396). מו״פ 318 (השוואה לשנים 2023–2025 בדוח). עובדים 15,151 ליום 31.12.2025 (טבלת כוח אדם). קאפקס: לא אומת משורת רכישת נכסים — null. שיווק ומכירה 2025: 139 (מסך סעיף 2.5.2 בדוח 2025, נתונים לרבעון רביעי ולשנה שהסתיימה ב־31.12.2025). פילוח גיאוגרפי 2025: מטבלת מט״ח בדוח 2025. הוצאות הנהלה וכלליות 2025: 223 מאותו סעיף (2.5.2).",
+      "generalAdminMUSD": 223
+    }
+  ],
+  "files": [
+    {
+      "fileName": "IAI - דוח תקופתי ושנתי לשנת 2025.docx",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 6159541,
+      "extension": "docx"
+    },
+    {
+      "fileName": "IAI - דוח תקופתי ושנתי לשנת 2025.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 24420888,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "דוח כספי 2024 - IAI.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 7013498,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2017.pdf",
+      "yearsInName": [],
+      "sizeBytes": 2866528,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2018.pdf",
+      "yearsInName": [],
+      "sizeBytes": 4461405,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2019.pdf",
+      "yearsInName": [],
+      "sizeBytes": 11903432,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2020.pdf",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 14381429,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2021.pdf",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 12913010,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2022.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 12590778,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעא - דוח תקופתי לשנת 2023.pdf",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 5233539,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "תעשייה אווירית - דוח תקופתי לשנת 2023.pdf",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 5233539,
+      "extension": "pdf"
+    }
+  ],
+  "generatedAt": "2026-04-11T10:35:38"
+}

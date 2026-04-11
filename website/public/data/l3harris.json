@@ -1,0 +1,186 @@
+{
+  "company": {
+    "slug": "l3harris",
+    "nameHe": "L3Harris Technologies",
+    "nameEn": "L3Harris Technologies, Inc.",
+    "reportsFolder": "L3Harris"
+  },
+  "currencyNote": "מיליוני דולר ארה״ב (MUSD); L3Harris מדווחת לפי שנת כספים (מועד סגירה בסביבות תחילת ינואר) — בדוחות המקור.",
+  "insights": [
+    "נתונים במיליוני דולר ארה״ב, לפי דוחות Annual Report ו־10-K (HTM) בתיקיית L3Harris.",
+    "L3Harris מדווחת לפי שנת כספים שמסתיימת בערך בתחילת ינואר — השדה 'שנה' באתר תואם את תווית השנה בדוחות המאוחדים (2025 = סוף שנת הכספים המסומנת בדוח 2025).",
+    "הכנסות = Total revenue; רווח תפעולי = Operating income; רווח נקי = Net income attributable to L3Harris (או שקול בדוחות מוקדמים).",
+    "תזרימים: CONSOLIDATED STATEMENT OF CASH FLOWS; CapEx = Capital expenditures / Additions to property, plant and equipment.",
+    "מאזן: CONSOLIDATED BALANCE SHEET. לשנת 2022 לא חולץ מאזן מלא מ־PDF — השדות הושארו ריקים.",
+    "צבר חוזי: Company-wide total backlog / ending backlog (מיליארדי דולרים → מיליוני דולרים); 2020 לפי יתרה ב־1.1.2021 בדוח 2021.",
+    "EBITDA משוער: Operating income + שורת Depreciation and amortization (ותאומים בדוח 2021).",
+    "ל־2020–2021 חלק מהשדות (רווח תפעולי) נגזרו מטבלאות MD&A (לפני מס) כשאין חילוץ טקסט מלא של דוח מאוחד ב־PDF."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 18194,
+      "backlogMUSD": 21700,
+      "netIncomeMUSD": 1121,
+      "operatingIncomeMUSD": 1175,
+      "grossMarginPct": 29.0,
+      "operatingCashFlowMUSD": 2790,
+      "investingCashFlowMUSD": 751,
+      "financingCashFlowMUSD": -3112,
+      "totalAssetsMUSD": 36960,
+      "totalLiabilitiesMUSD": 16119,
+      "equityMUSD": 20841,
+      "capexMUSD": 368,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 2207,
+      "employees": null,
+      "notes": "L3HARRIS - 2021.pdf — עמודות Fiscal 2020 (January 1, 2021) בטבלאות MD&A ובתזרים; צבר לפי $21.7B ב־1.1.2021; רווח תפעולי מוערך מלפני־מס."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 17814,
+      "backlogMUSD": 21100,
+      "netIncomeMUSD": 1847,
+      "operatingIncomeMUSD": 2109,
+      "grossMarginPct": 30.2,
+      "operatingCashFlowMUSD": 2687,
+      "investingCashFlowMUSD": 1394,
+      "financingCashFlowMUSD": -4413,
+      "totalAssetsMUSD": 34709,
+      "totalLiabilitiesMUSD": 15390,
+      "equityMUSD": 19319,
+      "capexMUSD": 342,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3076,
+      "employees": null,
+      "notes": "L3HARRIS - 2021.pdf — MD&A ותזרים; רווח תפעולי מחושב מלפני מס (2283) פחות non-operating (439) ועוד ריבית (265)."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 17062,
+      "backlogMUSD": 22300,
+      "netIncomeMUSD": 1062,
+      "operatingIncomeMUSD": 1127,
+      "grossMarginPct": 28.9,
+      "operatingCashFlowMUSD": 2158,
+      "investingCashFlowMUSD": -250,
+      "financingCashFlowMUSD": -1951,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 252,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 2065,
+      "employees": null,
+      "notes": "L3Harris - 2024 Annual Report.pdf (עמודות Dec 30, 2022); צבר מ־SEC-10K-FY2023-hrs-20231229.htm; מאזן לא חולץ."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 19419,
+      "backlogMUSD": 32700,
+      "netIncomeMUSD": 1227,
+      "operatingIncomeMUSD": 1426,
+      "grossMarginPct": 26.3,
+      "operatingCashFlowMUSD": 2096,
+      "investingCashFlowMUSD": -7021,
+      "financingCashFlowMUSD": 4594,
+      "totalAssetsMUSD": 41687,
+      "totalLiabilitiesMUSD": 22858,
+      "equityMUSD": 18829,
+      "capexMUSD": 449,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 2592,
+      "employees": null,
+      "notes": "L3Harris - 2024 Annual Report.pdf + טקסט צבר ב־10-K 2023."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 21325,
+      "backlogMUSD": 34200,
+      "netIncomeMUSD": 1502,
+      "operatingIncomeMUSD": 1918,
+      "grossMarginPct": 25.9,
+      "operatingCashFlowMUSD": 2559,
+      "investingCashFlowMUSD": -263,
+      "financingCashFlowMUSD": -2224,
+      "totalAssetsMUSD": 42001,
+      "totalLiabilitiesMUSD": 22422,
+      "equityMUSD": 19579,
+      "capexMUSD": 408,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3207,
+      "employees": null,
+      "notes": "L3Harris - 2024 Annual Report.pdf (עמודות Jan 3, 2025 / Dec 29, 2023)."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 21865,
+      "backlogMUSD": 38700,
+      "netIncomeMUSD": 1606,
+      "operatingIncomeMUSD": 2110,
+      "grossMarginPct": 25.7,
+      "operatingCashFlowMUSD": 3106,
+      "investingCashFlowMUSD": 407,
+      "financingCashFlowMUSD": -3082,
+      "totalAssetsMUSD": 41195,
+      "totalLiabilitiesMUSD": 21560,
+      "equityMUSD": 19635,
+      "capexMUSD": 424,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3334,
+      "employees": 45000,
+      "notes": "L3Harris_2025_Annual_Report.pdf; מאזן לסוף שנת 2025 (January 2, 2026 בכותרת הדוח); עובדים ~45,000."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "L3HARRIS - 2021.pdf",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 3458027,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "L3HARRIS - 2022.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 2714902,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "L3Harris - 2024 Annual Report.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 3357281,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "L3Harris_2025_Annual_Report.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 3325585,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "SEC-10K-FY2023-hrs-20231229.htm",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 3432491,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-transition-2021-01-01-hrs-20210101.htm",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 5682043,
+      "extension": "htm"
+    }
+  ],
+  "generatedAt": "2026-04-11T12:47:25"
+}

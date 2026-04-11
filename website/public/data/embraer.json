@@ -1,0 +1,184 @@
+{
+  "company": {
+    "slug": "embraer",
+    "nameHe": "אמבראיר",
+    "nameEn": "Embraer S.A.",
+    "reportsFolder": "EMBRAER"
+  },
+  "currencyNote": "מיליוני דולר ארה״ב (MUSD) לפי דוחות ו־20-F.",
+  "insights": [
+    "מיליוני דולר ארה״ב (USD) לפי דוחות מאוחדים ו־20-F.",
+    "רווח תפעולי: שורת Operating income בדוח המאוחד; לשנים 2020–2022 — שורת Operating income/(loss) לפני תוצאה פיננסית (כפי שמופיע ב־EMBRAER 2022.pdf).",
+    "EBITDA משוער: רווח תפעולי (לפי אותה הגדרה כמו לעיל) + פחת והפחתה מתזרים (שורת Depreciation and amortization expenses ב־20-F) לשנים 2023–2025.",
+    "תזרים תפעולי/השקעות/מימון ו־CapEx (רכישת רכוש קבוע) — מ־Consolidated Statement of Cash Flows ב־EMBRAER 2025 20-F לשנים 2023–2025; לשנים קודמות — null.",
+    "מאזן: Total assets / Total Liabilities / Total Equity מ־20-F 2025 ל־2024–2025; ל־2023 ומטה — null אם לא חולץ.",
+    "צבר הזמנות: לא מולא מהדוחות שנסרקו במהירות — אפשר להשלים מהערות ב־20-F."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 3771,
+      "backlogMUSD": null,
+      "netIncomeMUSD": -732,
+      "operatingIncomeMUSD": -323,
+      "grossMarginPct": 12.7,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": 30,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "EMBRAER 2022.pdf — טבלת הכנסות מאוחדת; נטו לבעלי השליטה (731.9) מעוגל; רווח תפעולי לפני פיננסי (323.4) מעוגל."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 4197,
+      "backlogMUSD": null,
+      "netIncomeMUSD": -45,
+      "operatingIncomeMUSD": 201,
+      "grossMarginPct": 15.7,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": 43,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "EMBRAER 2022.pdf — עמודת 2021."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 4540,
+      "backlogMUSD": null,
+      "netIncomeMUSD": -185,
+      "operatingIncomeMUSD": -111,
+      "grossMarginPct": 20.1,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": 110,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "EMBRAER 2022.pdf."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 5268,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 164,
+      "operatingIncomeMUSD": 315,
+      "grossMarginPct": 17.3,
+      "operatingCashFlowMUSD": 617,
+      "investingCashFlowMUSD": -448,
+      "financingCashFlowMUSD": -349,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 239,
+      "researchDevelopmentMUSD": 90,
+      "ebitdaMUSD": 556,
+      "employees": null,
+      "notes": "EMBRAER 2025 20-F — דוח רווח, תזרים ו־CapEx (רכישת PP&E)."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 6395,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 353,
+      "operatingIncomeMUSD": 668,
+      "grossMarginPct": 18.0,
+      "operatingCashFlowMUSD": 871,
+      "investingCashFlowMUSD": -600,
+      "financingCashFlowMUSD": -336,
+      "totalAssetsMUSD": 11824,
+      "totalLiabilitiesMUSD": 8480,
+      "equityMUSD": 3345,
+      "capexMUSD": 200,
+      "researchDevelopmentMUSD": 55,
+      "ebitdaMUSD": 911,
+      "employees": null,
+      "notes": "EMBRAER 2025 20-F — עמודות 2024."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 7578,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 352,
+      "operatingIncomeMUSD": 608,
+      "grossMarginPct": 17.5,
+      "operatingCashFlowMUSD": 870,
+      "investingCashFlowMUSD": -612,
+      "financingCashFlowMUSD": 146,
+      "totalAssetsMUSD": 12920,
+      "totalLiabilitiesMUSD": 9108,
+      "equityMUSD": 3812,
+      "capexMUSD": 187,
+      "researchDevelopmentMUSD": 74,
+      "ebitdaMUSD": 867,
+      "employees": null,
+      "notes": "EMBRAER 2025 20-F — נטו לבעלי השליטה 351.9 מעוגל; הון כולל non-controlling."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "EMBRAER 2022.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 1776989,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "EMBRAER 2024.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 1644772,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "EMBRAER 2025 20-F.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 2586696,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "SEC-10K-2020-12-31-official.htm",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 2811411,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-2021-12-31-official.htm",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 2866192,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-2023-12-31-official.htm",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 3131047,
+      "extension": "htm"
+    }
+  ],
+  "generatedAt": "2026-04-11T13:53:04"
+}

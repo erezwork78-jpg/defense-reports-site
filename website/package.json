@@ -1,0 +1,39 @@
+{
+  "name": "defense-reports-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:iai": "python3 scripts/build_iai_data.py",
+    "data:elbit": "python3 scripts/build_elbit_data.py",
+    "data:rafael": "python3 scripts/build_rafael_data.py",
+    "data:lockheed": "python3 scripts/build_lockheed_data.py",
+    "data:rtx": "python3 scripts/build_rtx_data.py",
+    "data:leonardo": "python3 scripts/build_leonardo_data.py",
+    "data:bae": "python3 scripts/build_bae_data.py",
+    "data:rheinmetall": "python3 scripts/build_rheinmetall_data.py",
+    "data:thales": "python3 scripts/build_thales_data.py",
+    "data:gd": "python3 scripts/build_gd_data.py",
+    "data:northrop": "python3 scripts/build_northrop_data.py",
+    "data:l3harris": "python3 scripts/build_l3harris_data.py",
+    "data:boeing": "python3 scripts/build_boeing_data.py",
+    "data:embraer": "python3 scripts/build_embraer_data.py",
+    "data:saab": "python3 scripts/build_saab_data.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.11"
+  }
+}

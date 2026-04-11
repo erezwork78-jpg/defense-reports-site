@@ -1,0 +1,182 @@
+{
+  "company": {
+    "slug": "bae",
+    "nameHe": "BAE Systems",
+    "nameEn": "BAE Systems plc",
+    "reportsFolder": "BAE Systems"
+  },
+  "currencyNote": "מקור בלירה שטרלינג; באתר MUSD עם המרה אינדיקטיבית — ראה bae-metrics insights.",
+  "insights": [
+    "BAE Systems plc — דיווח בלירה שטרלינג (£); באתר הומר ל־MUSD בשער ממוצע שנתי אינדיקטיבי (2020: 1.28; 2021: 1.35; 2022–2023: 1.24; 2024–2025: 1.279 $/£, יחס זהה לשורת 2024 כדי ש־Sales £30,662m יתואמו לסדר גודל של דולרים באתר) להשוואה גסה בלבד.",
+    "מכירות קבוצה (APM Sales): £30,662m (2025), £28,335m (2024 statutory Revenue בספרים; Sales בדוח 2025 ~£30.7B), וכן השנים הקודמות כפי שבדוח השנתי — נלקח מ־BAE-Systems-Annual-Report-2025.pdf / דוחות בתיקייה.",
+    "רווח תפעולי, נקי, EBITDA ותזרימים — הערכות; BAE מדגישה לעיתים מדדי «underlying» — השוו לדוח המקורי.",
+    "צבר: לא הוזן ב־JSON; ניתן להוסיף מדוח אם קיים."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 26750,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 1520,
+      "operatingIncomeMUSD": 2350,
+      "grossMarginPct": 18.5,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3100,
+      "employees": null,
+      "notes": "2020: ~£20.9B מכירות — הערכה; לאמת."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 28770,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 1840,
+      "operatingIncomeMUSD": 2680,
+      "grossMarginPct": 19.0,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3380,
+      "employees": null,
+      "notes": "2021: £21,310m."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 28840,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 1960,
+      "operatingIncomeMUSD": 2780,
+      "grossMarginPct": 19.2,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3480,
+      "employees": null,
+      "notes": "2022: £23,256m."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 31350,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 2180,
+      "operatingIncomeMUSD": 3020,
+      "grossMarginPct": 19.5,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 3750,
+      "employees": null,
+      "notes": "2023: £25,284m."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 36230,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 2520,
+      "operatingIncomeMUSD": 3480,
+      "grossMarginPct": 20.0,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 4280,
+      "employees": null,
+      "notes": "2024: £28,335m."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 39210,
+      "backlogMUSD": 106900,
+      "netIncomeMUSD": 2750,
+      "operatingIncomeMUSD": 3740,
+      "grossMarginPct": 20.3,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 4250,
+      "employees": null,
+      "notes": "2025: Sales £30,662m; Revenue (IFRS) £28,336m; Operating profit £2,925m; Profit for the year £2,151m; Underlying EBIT £3,322m; Order backlog £83.6bn — מ־BAE-Annual-Report-2025. המרה ל־MUSD ביחס 1.279 $/£ כמו שורת 2024."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "BAE-Systems-Annual-Report-2024.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 11264378,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "BAE-Systems-Annual-Report-2025.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 11559552,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "BAESystemsAnnualReport2020.pdf",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 77227799,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "BAESystemsAnnualReport2021.pdf",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 84428516,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "BAESystemsAnnualReport2022.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 96301739,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "BAESystemsAnnualReport2023.pdf",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 67764692,
+      "extension": "pdf"
+    }
+  ],
+  "generatedAt": "2026-04-11T10:35:38"
+}

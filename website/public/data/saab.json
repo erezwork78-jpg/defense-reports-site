@@ -1,0 +1,194 @@
+{
+  "company": {
+    "slug": "saab",
+    "nameHe": "סאאב",
+    "nameEn": "Saab AB",
+    "reportsFolder": "SaaB"
+  },
+  "currencyNote": "המספרים בשדות המטריקה הם ב־מיליוני קרונות שוודיות (MSEK) כפי שמופיעים בדוחות — לא בדולרים. השוואה ישירה לחברות ב־USD עלולה להטעות.",
+  "insights": [
+    "כל המספרים בשדות המטריקה הם ב־מיליוני קרונות שוודיות (MSEK) — לא USD — כפי שבדוחות Saab.",
+    "דוחות מקור: saab_asr2021_eng-official, saab_asr2022_en, saab-annual-and-sustainability-report-2023, דוח 2024 ודוח 2025 בתיקיית SaaB.",
+    "הכנסות = Sales; רווח תפעולי = Operating income; רווח נקי = Net income for the year (או לבעלי האם מפורש).",
+    "תזרים תפעולי = Cash flow from operating activities; השקעות/מימון = שורות המסכמות בדוח תזרים מאוחד.",
+    "CapEx: השפעת רכישות ברכוש קבוע (tangible) לפי הערה בדוח תזרים.",
+    "מו״פ = Research and development costs בדוח הכנסות מאוחד.",
+    "מספר עובדים: ממוצע 2023 מדוח 2023 (20,479); שאר השנים — null.",
+    "מאזן כולל (נכסים/התחייבויות) — לא מולא להבטחת דיוק; ניתן להוסיף מדוח מאזן מאוחד בעמודי הדוח."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 35431,
+      "backlogMUSD": 99816,
+      "netIncomeMUSD": 1092,
+      "operatingIncomeMUSD": 1315,
+      "grossMarginPct": 16.0,
+      "operatingCashFlowMUSD": 5800,
+      "investingCashFlowMUSD": -4002,
+      "financingCashFlowMUSD": -1125,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 1269,
+      "researchDevelopmentMUSD": 1331,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "saab_asr2021_eng-official.pdf — עמודת 2020 בדוח מאוחד ובתזרים; צבר מטבלת order backlog בדוח 2022."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 39154,
+      "backlogMUSD": 105177,
+      "netIncomeMUSD": 2025,
+      "operatingIncomeMUSD": 2888,
+      "grossMarginPct": 20.9,
+      "operatingCashFlowMUSD": 5713,
+      "investingCashFlowMUSD": -4703,
+      "financingCashFlowMUSD": -1639,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 1223,
+      "researchDevelopmentMUSD": 1659,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "saab_asr2021_eng-official.pdf + saab_asr2022 (צבר סוף 2021)."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 42006,
+      "backlogMUSD": 127676,
+      "netIncomeMUSD": 2283,
+      "operatingIncomeMUSD": 3274,
+      "grossMarginPct": 21.2,
+      "operatingCashFlowMUSD": 4654,
+      "investingCashFlowMUSD": -2438,
+      "financingCashFlowMUSD": -1178,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 1624,
+      "researchDevelopmentMUSD": 1817,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "saab_asr2022_en.pdf."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 51609,
+      "backlogMUSD": 153409,
+      "netIncomeMUSD": 3443,
+      "operatingIncomeMUSD": 4272,
+      "grossMarginPct": 21.8,
+      "operatingCashFlowMUSD": 6462,
+      "investingCashFlowMUSD": -5915,
+      "financingCashFlowMUSD": -1230,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 2507,
+      "researchDevelopmentMUSD": 2117,
+      "ebitdaMUSD": null,
+      "employees": 20479,
+      "notes": "saab-annual-and-sustainability-report-2023-official.pdf; עובדים — ממוצע שנתי מהערה 8."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 63751,
+      "backlogMUSD": 187223,
+      "netIncomeMUSD": 4210,
+      "operatingIncomeMUSD": 5662,
+      "grossMarginPct": 21.4,
+      "operatingCashFlowMUSD": 6732,
+      "investingCashFlowMUSD": -4182,
+      "financingCashFlowMUSD": -1934,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 4012,
+      "researchDevelopmentMUSD": 2809,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "20250303-saab-publishes-its-2024-annual-and-sustainability-report — דוח מאוחד ותזרים."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 79146,
+      "backlogMUSD": 274532,
+      "netIncomeMUSD": 6356,
+      "operatingIncomeMUSD": 8066,
+      "grossMarginPct": 21.7,
+      "operatingCashFlowMUSD": 12105,
+      "investingCashFlowMUSD": -11643,
+      "financingCashFlowMUSD": 647,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 6112,
+      "researchDevelopmentMUSD": 3623,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "2026-03-03 - saab 2025 annual report.pdf — Operating income 8,066 MSEK."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "20210304-saab-publishes-its-annual-and-sustainability-report-2020-en-0-3908922.pdf",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 7256035,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "20250303-saab-publishes-its-2024-annual-and-sustainability-report-en-0-4999946.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 10312817,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "2026-03-03 - saab 2025 annual report.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 22480480,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "20260205-saab-year-end-report-2025record-order-bookings-building-for-growth-en-0-5300016.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 1796196,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "saab-annual-and-sustainability-report-2023-official.pdf",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 13503892,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "saab_asr2021_eng-official.pdf",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 12713195,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "saab_asr2022_en.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 10802718,
+      "extension": "pdf"
+    }
+  ],
+  "generatedAt": "2026-04-11T13:53:05"
+}

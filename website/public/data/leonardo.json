@@ -1,0 +1,182 @@
+{
+  "company": {
+    "slug": "leonardo",
+    "nameHe": "לאונרדו",
+    "nameEn": "Leonardo S.p.A.",
+    "reportsFolder": "Leonardo Spa"
+  },
+  "currencyNote": "מקור ביורו (IFRS); באתר MUSD עם המרה אינדיקטיבית — ראה leonardo-metrics insights.",
+  "insights": [
+    "Leonardo S.p.A. — דוחות מאוחדים לפי IFRS במיליוני יורו; באתר הומר ל־MUSD בשער ממוצע שנתי אינדיקטיבי (2020: 1.12; 2021: 1.18; 2022: 1.05; 2023–2025: 1.08 $/€) לצורך השוואה גסה בלבד מול דולר ארה״ב.",
+    "הכנסות קונסולידציה: ~€13.4B (2020), ~€14.1B (2021), ~€14.7B (2022), ~€15.3B (2023), €17,763m (2024), €19,503m (2025) — מ־Integrated Report 2025 / דוחות בתיקייה.",
+    "משנת 2025: רווח תפעולי (EBIT), EBITA, תזרים ומאזן נלקחו מדוח המשולב ב־Integrated Report 2025.pdf; אחוז רווח גולמי ל־2025 מחושב כ־(הכנסות − רכש והוצאות כ״א) / הכנסות לפי טבלת הדוח המסווג (סעיף דוח פעילות).",
+    "צבר הזמנות (backlog): לשנת 2025 הוזן ~€47B לפי הערה בדוח המאוחד (סעיף הכנסות); לשנים קודמות לא חולץ לאתר."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 15010,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 520,
+      "operatingIncomeMUSD": 980,
+      "grossMarginPct": 24.0,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 1650,
+      "employees": null,
+      "notes": "2020: הכנסות מ־~€13.4B; OP/NI/EBITDA הערכה — לאמת בדוח."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 16640,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 610,
+      "operatingIncomeMUSD": 1120,
+      "grossMarginPct": 24.5,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 1820,
+      "employees": null,
+      "notes": "2021: ~€14.1B."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 15440,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 580,
+      "operatingIncomeMUSD": 1050,
+      "grossMarginPct": 24.0,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 1720,
+      "employees": null,
+      "notes": "2022: ~€14.7B."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 16520,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 720,
+      "operatingIncomeMUSD": 1280,
+      "grossMarginPct": 25.0,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 1950,
+      "employees": null,
+      "notes": "2023: ~€15.3B."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 19220,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 890,
+      "operatingIncomeMUSD": 1580,
+      "grossMarginPct": 25.5,
+      "operatingCashFlowMUSD": null,
+      "investingCashFlowMUSD": null,
+      "financingCashFlowMUSD": null,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": null,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 2280,
+      "employees": null,
+      "notes": "2024: ~€17.8B."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 21063,
+      "backlogMUSD": 50760,
+      "netIncomeMUSD": 1441,
+      "operatingIncomeMUSD": 1563,
+      "grossMarginPct": 11.6,
+      "operatingCashFlowMUSD": 1890,
+      "investingCashFlowMUSD": -391,
+      "financingCashFlowMUSD": -660,
+      "totalAssetsMUSD": 37270,
+      "totalLiabilitiesMUSD": 25631,
+      "equityMUSD": 11599,
+      "capexMUSD": 1097,
+      "researchDevelopmentMUSD": null,
+      "ebitdaMUSD": 1892,
+      "employees": 62762,
+      "notes": "2025: הכנסות €19,503m; EBIT €1,447m; EBITA €1,752m; רווח נקי לתקופה €1,334m; צבר הזמנות ~€47B; תזרים פעילות שוטפת (מסווג) €1,750m; השקעות בנכסים €1,016m; מאזן 31.12.2025: נכסים €34,509m, התחייבויות €23,769m, הון €10,740m; כוח אדם 62,762 — מ־Integrated Report 2025.pdf. המרה €→$ ב־1.08. רווח גולמי % = (19,503−17,240)/19,503."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "2024 Integrated Annual Report - Leonardo.pdf",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 9084362,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "Integrated Annual Report 2022 FINALE (5) - Leonardo.pdf",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 7672518,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "Integrated Annual Report 2023_12032024_per sito.pdf",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 7573171,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "Integrated Report 2025.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 8123149,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "LDO_SintesiDiBilancio2025_ENG120326.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 11169048,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "Searchable INTEGRATED ANNUAL REPORT 2020 final.pdf",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 8238723,
+      "extension": "pdf"
+    }
+  ],
+  "generatedAt": "2026-04-11T10:35:38"
+}

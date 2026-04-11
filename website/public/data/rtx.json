@@ -1,0 +1,193 @@
+{
+  "company": {
+    "slug": "rtx",
+    "nameHe": "RTX",
+    "nameEn": "RTX Corporation",
+    "reportsFolder": "RTX"
+  },
+  "currencyNote": "דיווח בדולר ארה״ב (USD); באתר מוצגים מיליוני דולר (MUSD) — ראה rtx-metrics insights.",
+  "insights": [
+    "נתונים בדולר ארה״ב (מיליוני USD) — RTX (לשעבר Raytheon Technologies) לפי US GAAP. חילוץ מקבצי 10-K iXBRL בתיקיית «RTX» (2020, 2022, 2023, 2024).",
+    "שנת 2025: נתונים מ־2025-12-31 10-K-Final.pdf בתיקיית RTX (דוח מאוחד ותזרים). Operating profit = שורת Operating profit בדוח רווח והפסד; EBITDA = Operating profit + Depreciation and amortization מתזרים; צבר = Total backlog / RPO ~$268B.",
+    "רווח גולמי % מחושב כ־(Revenues − CostOfGoodsAndServicesSold) / Revenues × 100.",
+    "EBITDA = OperatingIncomeLoss + DepreciationDepletionAndAmortization (מ־XBRL). ב־2020 הרווח התפעולי שלילי (השפעות מיזוג/מס וכו׳) — EBITDA הושאר null.",
+    "תזרים תפעולי: כאשר קיים רק NetCashProvidedByUsedInOperatingActivitiesContinuingOperations — נקלט הוא (למשל FY2021).",
+    "צבר (backlog): RPO ב־31.12.2024 מה־10-K FY2024 (~218,000 מ״ד $); לשאר השנים — null אם לא נחלץ.",
+    "השוואה לחברות ישראליות היא לסדר גודל בלבד."
+  ],
+  "metrics": [
+    {
+      "year": 2020,
+      "revenueMUSD": 58588,
+      "backlogMUSD": null,
+      "netIncomeMUSD": -3519,
+      "operatingIncomeMUSD": -5100,
+      "grossMarginPct": 34.9,
+      "operatingCashFlowMUSD": 4334,
+      "investingCashFlowMUSD": 3343,
+      "financingCashFlowMUSD": -3860,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 1795,
+      "researchDevelopmentMUSD": 2582,
+      "ebitdaMUSD": null,
+      "employees": null,
+      "notes": "FY2020 — SEC-10K-FY2020-rtx-20201231.htm; שנה עם הפסד תפעולי/נקי — אין EBITDA פשוט OP+D&A. OCF = Continuing operations."
+    },
+    {
+      "year": 2021,
+      "revenueMUSD": 65913,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 3864,
+      "operatingIncomeMUSD": 6233,
+      "grossMarginPct": 37.7,
+      "operatingCashFlowMUSD": 7142,
+      "investingCashFlowMUSD": -1364,
+      "financingCashFlowMUSD": -6756,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 2134,
+      "researchDevelopmentMUSD": 2732,
+      "ebitdaMUSD": 10790,
+      "employees": null,
+      "notes": "FY2021 — עמודת השוואה ב־10-K FY2023 (iXBRL)."
+    },
+    {
+      "year": 2022,
+      "revenueMUSD": 68758,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 5197,
+      "operatingIncomeMUSD": 6339,
+      "grossMarginPct": 39.0,
+      "operatingCashFlowMUSD": 7168,
+      "investingCashFlowMUSD": -2829,
+      "financingCashFlowMUSD": -5859,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 2288,
+      "researchDevelopmentMUSD": 2711,
+      "ebitdaMUSD": 10447,
+      "employees": null,
+      "notes": "FY2022 — 10-K FY2024 (מספרים משוחזרים); D&A 4,108 מ״ד $."
+    },
+    {
+      "year": 2023,
+      "revenueMUSD": 70899,
+      "backlogMUSD": null,
+      "netIncomeMUSD": 3195,
+      "operatingIncomeMUSD": 4749,
+      "grossMarginPct": 38.8,
+      "operatingCashFlowMUSD": 7883,
+      "investingCashFlowMUSD": -3039,
+      "financingCashFlowMUSD": -4527,
+      "totalAssetsMUSD": null,
+      "totalLiabilitiesMUSD": null,
+      "equityMUSD": null,
+      "capexMUSD": 2415,
+      "researchDevelopmentMUSD": 2818,
+      "ebitdaMUSD": 8960,
+      "employees": null,
+      "notes": "FY2023 — 10-K FY2024; D&A 4,211 מ״ד $."
+    },
+    {
+      "year": 2024,
+      "revenueMUSD": 83063,
+      "backlogMUSD": 218000,
+      "netIncomeMUSD": 4774,
+      "operatingIncomeMUSD": 8744,
+      "grossMarginPct": 38.9,
+      "operatingCashFlowMUSD": 7159,
+      "investingCashFlowMUSD": -1534,
+      "financingCashFlowMUSD": -6617,
+      "totalAssetsMUSD": 162861,
+      "totalLiabilitiesMUSD": 100903,
+      "equityMUSD": 60156,
+      "capexMUSD": 2625,
+      "researchDevelopmentMUSD": 2946,
+      "ebitdaMUSD": 13108,
+      "employees": null,
+      "notes": "FY2024 — SEC-10K-FY2024-rtx-20241231.htm; RPO 31.12.2024; מאזן הקשר c-5."
+    },
+    {
+      "year": 2025,
+      "revenueMUSD": 88603,
+      "backlogMUSD": 268000,
+      "netIncomeMUSD": 6732,
+      "operatingIncomeMUSD": 9300,
+      "grossMarginPct": 20.1,
+      "operatingCashFlowMUSD": 10567,
+      "investingCashFlowMUSD": -1265,
+      "financingCashFlowMUSD": -7486,
+      "totalAssetsMUSD": 171079,
+      "totalLiabilitiesMUSD": 103941,
+      "equityMUSD": 67102,
+      "capexMUSD": 2627,
+      "researchDevelopmentMUSD": 2807,
+      "ebitdaMUSD": 13678,
+      "employees": 180000,
+      "notes": "FY2025 — 2025-12-31 10-K-Final.pdf: Total net sales $88,603m; Operating profit $9,300m; Net income attributable $6,732m; D&A $4,378m; EBITDA $13,678m; OCF $10,567m; Net investing $(1,265)m; Net financing $(7,486)m; CapEx $2,627m; R&D $2,807m; Total assets $171,079m; Total liabilities $103,941m; Total equity $67,102m; Total backlog $268B; ~180,000 employees (Item 1)."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "2025 RTX Annual Report.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 2252313,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "2025-12-31 10-K-Final.pdf",
+      "yearsInName": [
+        2025
+      ],
+      "sizeBytes": 1904248,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "RTX 2021.pdf",
+      "yearsInName": [
+        2021
+      ],
+      "sizeBytes": 1515889,
+      "extension": "pdf"
+    },
+    {
+      "fileName": "SEC-10K-FY2020-rtx-20201231.htm",
+      "yearsInName": [
+        2020
+      ],
+      "sizeBytes": 6396779,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-FY2022-rtx-20221231.htm",
+      "yearsInName": [
+        2022
+      ],
+      "sizeBytes": 5430789,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-FY2023-rtx-20231231.htm",
+      "yearsInName": [
+        2023
+      ],
+      "sizeBytes": 3876208,
+      "extension": "htm"
+    },
+    {
+      "fileName": "SEC-10K-FY2024-rtx-20241231.htm",
+      "yearsInName": [
+        2024
+      ],
+      "sizeBytes": 3860877,
+      "extension": "htm"
+    }
+  ],
+  "generatedAt": "2026-04-11T10:35:39"
+}
