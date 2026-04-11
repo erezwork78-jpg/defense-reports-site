@@ -23,6 +23,7 @@ import {
 import { deriveAutoInsights } from "../lib/deriveAutoInsights";
 import type { IaiPayload, MetricRow } from "../types/iai";
 import iaiBundled from "../../public/data/iai.json";
+import { MetricsDataDisclaimer } from "../components/MetricsDataDisclaimer";
 import { SiteNav } from "../components/SiteNav";
 
 /** כש־fetch ל־/data/iai.json נכשל (file://, שרת בלי public), מציגים את העותק מהבילד */
@@ -576,13 +577,6 @@ export function IaiCompanyPage() {
         </div>
       )}
 
-      <div className="disclaimer">
-        הנתונים המספריים והתובנות הידניות נשמרים ב־
-        <span className="file-path">public/data/iai-metrics.json</span> (מפתחות{" "}
-        <code>rows</code>, <code>insights</code>) — הוראות בעמוד <strong>README</strong>{" "}
-        בתיקיית האתר. רשימת הקבצים נוצרת עם <code>npm run data:iai</code>.
-      </div>
-
       <h2>תקציר מספרי (לפי שנה אחרונה עם נתונים)</h2>
       {latest ? (
         <div className="card-grid">
@@ -758,199 +752,6 @@ export function IaiCompanyPage() {
         </>
       ) : null}
 
-      <h2>תובנות</h2>
-      <p className="muted">
-        <strong>ניסוח ידני</strong> — מערך <code>insights</code> באותו קובץ JSON.{" "}
-        <strong>אוטומטי</strong> — משפטים קצרים שנגזרים מהסדרה (CAGR הכנסות, שנה עם
-        צמיחה חזקה בהכנסות, שינוי ברווח נקי ממכירות, מגמה ביחס מלאי להכנסות). אינו
-        מחליף ניתוח מהדוחות המלאים.
-      </p>
-      {(data.insights && data.insights.length > 0) || autoInsights.length > 0 ? (
-        <div className="insights-box">
-          {data.insights && data.insights.length > 0 && (
-            <>
-              <h3 className="insights-subh">מהקובץ (עריכה ידנית)</h3>
-              <ul className="insights-list">
-                {data.insights.map((t, i) => (
-                  <li key={`ins-manual-${i}`}>{t}</li>
-                ))}
-              </ul>
-            </>
-          )}
-          {autoInsights.length > 0 && (
-            <>
-              <h3 className="insights-subh">אוטומטי מהמספרים</h3>
-              <ul className="insights-list insights-list--auto">
-                {autoInsights.map((t, i) => (
-                  <li key={`ins-auto-${i}`}>{t}</li>
-                ))}
-              </ul>
-            </>
-          )}
-        </div>
-      ) : (
-        <p className="muted">
-          אין תובנות ידניות; אין מספיק נתוני הכנסות לחישוב תובנות אוטומטיות.
-        </p>
-      )}
-
-      <h2>ניסוי מודל: המרת התקשרויות למכירות</h2>
-      <p className="muted">
-        המודל מחשב תחילה התקשרויות משוערות לפי זהות צבר:{" "}
-        <code>Orders_t = Revenue_t + (Backlog_t - Backlog_(t-1))</code>, ואז מתאים עקומת המרה רב־שנתית
-        (0–4 שנים; ואם אין מספיק עומק היסטורי המודל יורד אוטומטית ל־0–3 או 0–2) כך שסכום המשקלים = 100%.
-      </p>
-      <p className="muted small" style={{ marginTop: "-0.35rem" }}>
-        <strong>הערה:</strong> גרף המודל והתחזית מוצגים רק בדף זה (תע״א), לא בדפי אלביט/רפא״ל.
-      </p>
-      {conversionModel ? (
-        <>
-          <div className="card-grid">
-            <div className="card">
-              <div className="label">אופק עקומה בפועל</div>
-              <div className="value">0–{conversionModel.curve.horizon}</div>
-            </div>
-            <div className="card">
-              <div className="label">זמן המרה ממוצע</div>
-              <div className="value">{fmtNum(conversionModel.curve.avgLagYears, 2)} שנים</div>
-            </div>
-            <div className="card">
-              <div className="label">שגיאת התאמה (MAPE)</div>
-              <div className="value">
-                {conversionModel.curve.mapePct != null ? `${fmtNum(conversionModel.curve.mapePct, 1)}%` : "—"}
-              </div>
-            </div>
-            {conversionModel.curve.weights.map((w, i) => (
-              <div className="card" key={`w-${i}`}>
-                <div className="label">שנה {i}</div>
-                <div className="value">{fmtNum(w * 100, 1)}%</div>
-                <p className="muted" style={{ fontSize: "0.72rem", margin: "0.35rem 0 0" }}>
-                  חלק מהתקשרויות שמוכר כמכירות אחרי {i} שנים
-                </p>
-              </div>
-            ))}
-          </div>
-          <p className="muted small" style={{ marginBottom: "0.75rem" }}>
-            <strong>הבדלה חשובה:</strong> הטבלה הראשונה מציגה שנים שכבר דווחו בדוח — זו{" "}
-            <em>התאמת המודל בדגימה</em> (בפועל מול מה שהמודל היה נותן באותה שנה). הטבלה השנייה והגרף מציגים{" "}
-            <em>תחזית</em> לשנים שעדיין אין להן דוח מכירות ({conversionModel.forecast.forecastYear}–
-            {conversionModel.forecast.forecastEndYear}): שם אין עמודת «בפועל».
-          </p>
-          <h3 className="section-subh">התאמת המודל בדגימה (שנים שדווחו בדוח)</h3>
-          <p className="muted small" style={{ marginBottom: "0.5rem" }}>
-            רק שנים שיש בהן מספיק היסטוריית Orders להרצת המשקלים; «מכירות חזויות» כאן אינן תחזית עתידית אלא חישוב
-            לאחור/במקביל לדיווח.
-          </p>
-          <div className="table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>שנה</th>
-                  <th>מכירות בפועל (MUSD)</th>
-                  <th>חזוי מודל באותה שנה (MUSD)</th>
-                  <th>סטייה %</th>
-                </tr>
-              </thead>
-              <tbody>
-                {conversionModel.curve.fitRows.map((r) => {
-                  const d = r.actual !== 0 ? ((r.predicted - r.actual) / r.actual) * 100 : null;
-                  return (
-                    <tr key={`fit-${r.year}`}>
-                      <td>{r.year}</td>
-                      <td>{fmtNum(r.actual, 0)}</td>
-                      <td>{fmtNum(r.predicted, 0)}</td>
-                      <td>{d != null ? `${fmtNum(d, 1)}%` : "—"}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-          <h3 className="section-subh">
-            תחזית מכירות (אין עדיין דוח בפועל) — {conversionModel.forecast.forecastYear}–
-            {conversionModel.forecast.forecastEndYear}
-          </h3>
-          <p className="muted small" style={{ marginBottom: "0.5rem" }}>
-            לכל שנה עתידית משלימים <code>Orders</code> באקסטרפולציה לינארית מהשתי שנים הקודמות:{" "}
-            <code>O<sub>y</sub> ≈ 2·O<sub>y−1</sub> − O<sub>y−2</sub></code>, ואז הכנסות חזויות כ־
-            <code>Σ w<sub>k</sub>·O<sub>שנה−k</sub></code>. ככל שמתרחקים קדימה האקסטרפולציה רועשת יותר. ניסוי הסברתי
-            בלבד.
-          </p>
-          <div className="table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>שנה</th>
-                  <th>מכירות בפועל</th>
-                  <th>הכנסות חזויות (MUSD)</th>
-                  <th>Orders משוער (MUSD)</th>
-                </tr>
-              </thead>
-              <tbody>
-                {conversionModel.forecast.futureTableRows.map((r) => (
-                  <tr key={`fut-${r.year}`}>
-                    <td>{r.year}</td>
-                    <td className="muted">— (אין דוח)</td>
-                    <td>{fmtNum(r.revenuePredictedMUSD, 0)}</td>
-                    <td>{fmtNum(r.ordersImpliedMUSD, 0)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="card-grid" style={{ marginBottom: "0.75rem" }}>
-            {conversionModel.forecast.futureTableRows.map((r) => (
-              <Fragment key={`fcard-${r.year}`}>
-                <div className="card">
-                  <div className="label">הכנסות חזויות {r.year}</div>
-                  <div className="value">
-                    {r.revenuePredictedMUSD != null
-                      ? `${fmtNum(r.revenuePredictedMUSD, 0)} מ״ד $`
-                      : "—"}
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="label">Orders משוער {r.year}</div>
-                  <div className="value">{fmtNum(r.ordersImpliedMUSD, 0)} מ״ד $</div>
-                </div>
-              </Fragment>
-            ))}
-          </div>
-          <div className="conversion-forecast-chart conversion-forecast-chart--block">
-            <h3 className="section-subh">
-              גרף: בפועל, התאמה ותחזית {conversionModel.forecast.forecastYear}–
-              {conversionModel.forecast.forecastEndYear}
-            </h3>
-            <p className="muted small" style={{ marginBottom: "0.5rem" }}>
-              קו כתום — חזוי המודל בשנים שיש בהן דוח מכירות; קו צהוב מקווקו — אותו מודל על טווח התחזית (מ־
-              {conversionModel.forecast.lastActualYear} ואילך). גם בלי גרף, המספרים מופיעים בטבלת התחזית למעלה.
-            </p>
-            <ConversionForecastLineChart
-              rows={conversionModel.forecast.chartRows}
-              forecastRangeLabel={`${conversionModel.forecast.forecastYear}–${conversionModel.forecast.forecastEndYear}`}
-            />
-          </div>
-          <div className="insights-box">
-            <h3 className="insights-subh">הנחות עבודה של המודל</h3>
-            <ul className="insights-list">
-              <li>מודל אגרגטיבי ברמת חברה-שנה (לא ברמת חוזה בודד), ולכן הוא מאקרו ולא תחליף ל-PMO.</li>
-              <li>התקשרויות נגזרות בעקיפין מהצבר; שינויים חשבונאיים/שערי מטבע יכולים להשפיע על האמידה.</li>
-              <li>העקומה מותאמת בחיפוש דיסקרטי (צעדי 5%) כדי לשמור על פרשנות יציבה ופשוטה.</li>
-              <li>ה-MAPE נמדד על השנים שבהן יש נתונים מלאים לדלילי העקומה שנבחרו.</li>
-            </ul>
-          </div>
-        </>
-      ) : (
-        <div className="insights-box" role="status">
-          <p className="muted" style={{ marginBottom: "0.5rem" }}>
-            אין מספיק נתונים כדי לאמוד עקומת המרה (או שחסר צבר/הכנסות בחלק מהשנים).
-          </p>
-          <p className="muted small" style={{ margin: 0 }}>
-            <strong>פירוט:</strong> {conversionModelBlockedReason(data.metrics)}
-          </p>
-        </div>
-      )}
-
       <h2>מגמות לאורך שנים</h2>
       <p className="muted">{data.currencyNote}</p>
       {chartHasData ? (
@@ -1094,6 +895,9 @@ export function IaiCompanyPage() {
       ) : (
         <p className="muted">אין עדיין נקודות לגרף — מלא ערכים בקובץ המטריקות.</p>
       )}
+
+      <h2>מגמות: שנה מול שנה ולפי נושא</h2>
+      <IaiBreakdownDemos metrics={data.metrics} />
 
       {(cashFlowChartHasData ||
         balanceChartHasData ||
@@ -1450,6 +1254,199 @@ export function IaiCompanyPage() {
         </table>
       </div>
 
+      <h2>תובנות</h2>
+      <p className="muted">
+        <strong>ניסוח ידני</strong> — מערך <code>insights</code> באותו קובץ JSON.{" "}
+        <strong>אוטומטי</strong> — משפטים קצרים שנגזרים מהסדרה (CAGR הכנסות, שנה עם
+        צמיחה חזקה בהכנסות, שינוי ברווח נקי ממכירות, מגמה ביחס מלאי להכנסות). אינו
+        מחליף ניתוח מהדוחות המלאים.
+      </p>
+      {(data.insights && data.insights.length > 0) || autoInsights.length > 0 ? (
+        <div className="insights-box">
+          {data.insights && data.insights.length > 0 && (
+            <>
+              <h3 className="insights-subh">מהקובץ (עריכה ידנית)</h3>
+              <ul className="insights-list">
+                {data.insights.map((t, i) => (
+                  <li key={`ins-manual-${i}`}>{t}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {autoInsights.length > 0 && (
+            <>
+              <h3 className="insights-subh">אוטומטי מהמספרים</h3>
+              <ul className="insights-list insights-list--auto">
+                {autoInsights.map((t, i) => (
+                  <li key={`ins-auto-${i}`}>{t}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
+      ) : (
+        <p className="muted">
+          אין תובנות ידניות; אין מספיק נתוני הכנסות לחישוב תובנות אוטומטיות.
+        </p>
+      )}
+
+      <h2>ניסוי מודל: המרת התקשרויות למכירות</h2>
+      <p className="muted">
+        המודל מחשב תחילה התקשרויות משוערות לפי זהות צבר:{" "}
+        <code>Orders_t = Revenue_t + (Backlog_t - Backlog_(t-1))</code>, ואז מתאים עקומת המרה רב־שנתית
+        (0–4 שנים; ואם אין מספיק עומק היסטורי המודל יורד אוטומטית ל־0–3 או 0–2) כך שסכום המשקלים = 100%.
+      </p>
+      <p className="muted small" style={{ marginTop: "-0.35rem" }}>
+        <strong>הערה:</strong> גרף המודל והתחזית מוצגים רק בדף זה (תע״א), לא בדפי אלביט/רפא״ל.
+      </p>
+      {conversionModel ? (
+        <>
+          <div className="card-grid">
+            <div className="card">
+              <div className="label">אופק עקומה בפועל</div>
+              <div className="value">0–{conversionModel.curve.horizon}</div>
+            </div>
+            <div className="card">
+              <div className="label">זמן המרה ממוצע</div>
+              <div className="value">{fmtNum(conversionModel.curve.avgLagYears, 2)} שנים</div>
+            </div>
+            <div className="card">
+              <div className="label">שגיאת התאמה (MAPE)</div>
+              <div className="value">
+                {conversionModel.curve.mapePct != null ? `${fmtNum(conversionModel.curve.mapePct, 1)}%` : "—"}
+              </div>
+            </div>
+            {conversionModel.curve.weights.map((w, i) => (
+              <div className="card" key={`w-${i}`}>
+                <div className="label">שנה {i}</div>
+                <div className="value">{fmtNum(w * 100, 1)}%</div>
+                <p className="muted" style={{ fontSize: "0.72rem", margin: "0.35rem 0 0" }}>
+                  חלק מהתקשרויות שמוכר כמכירות אחרי {i} שנים
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="muted small" style={{ marginBottom: "0.75rem" }}>
+            <strong>הבדלה חשובה:</strong> הטבלה הראשונה מציגה שנים שכבר דווחו בדוח — זו{" "}
+            <em>התאמת המודל בדגימה</em> (בפועל מול מה שהמודל היה נותן באותה שנה). הטבלה השנייה והגרף מציגים{" "}
+            <em>תחזית</em> לשנים שעדיין אין להן דוח מכירות ({conversionModel.forecast.forecastYear}–
+            {conversionModel.forecast.forecastEndYear}): שם אין עמודת «בפועל».
+          </p>
+          <h3 className="section-subh">התאמת המודל בדגימה (שנים שדווחו בדוח)</h3>
+          <p className="muted small" style={{ marginBottom: "0.5rem" }}>
+            רק שנים שיש בהן מספיק היסטוריית Orders להרצת המשקלים; «מכירות חזויות» כאן אינן תחזית עתידית אלא חישוב
+            לאחור/במקביל לדיווח.
+          </p>
+          <div className="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>שנה</th>
+                  <th>מכירות בפועל (MUSD)</th>
+                  <th>חזוי מודל באותה שנה (MUSD)</th>
+                  <th>סטייה %</th>
+                </tr>
+              </thead>
+              <tbody>
+                {conversionModel.curve.fitRows.map((r) => {
+                  const d = r.actual !== 0 ? ((r.predicted - r.actual) / r.actual) * 100 : null;
+                  return (
+                    <tr key={`fit-${r.year}`}>
+                      <td>{r.year}</td>
+                      <td>{fmtNum(r.actual, 0)}</td>
+                      <td>{fmtNum(r.predicted, 0)}</td>
+                      <td>{d != null ? `${fmtNum(d, 1)}%` : "—"}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <h3 className="section-subh">
+            תחזית מכירות (אין עדיין דוח בפועל) — {conversionModel.forecast.forecastYear}–
+            {conversionModel.forecast.forecastEndYear}
+          </h3>
+          <p className="muted small" style={{ marginBottom: "0.5rem" }}>
+            לכל שנה עתידית משלימים <code>Orders</code> באקסטרפולציה לינארית מהשתי שנים הקודמות:{" "}
+            <code>O<sub>y</sub> ≈ 2·O<sub>y−1</sub> − O<sub>y−2</sub></code>, ואז הכנסות חזויות כ־
+            <code>Σ w<sub>k</sub>·O<sub>שנה−k</sub></code>. ככל שמתרחקים קדימה האקסטרפולציה רועשת יותר. ניסוי הסברתי
+            בלבד.
+          </p>
+          <div className="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>שנה</th>
+                  <th>מכירות בפועל</th>
+                  <th>הכנסות חזויות (MUSD)</th>
+                  <th>Orders משוער (MUSD)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {conversionModel.forecast.futureTableRows.map((r) => (
+                  <tr key={`fut-${r.year}`}>
+                    <td>{r.year}</td>
+                    <td className="muted">— (אין דוח)</td>
+                    <td>{fmtNum(r.revenuePredictedMUSD, 0)}</td>
+                    <td>{fmtNum(r.ordersImpliedMUSD, 0)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="card-grid" style={{ marginBottom: "0.75rem" }}>
+            {conversionModel.forecast.futureTableRows.map((r) => (
+              <Fragment key={`fcard-${r.year}`}>
+                <div className="card">
+                  <div className="label">הכנסות חזויות {r.year}</div>
+                  <div className="value">
+                    {r.revenuePredictedMUSD != null
+                      ? `${fmtNum(r.revenuePredictedMUSD, 0)} מ״ד $`
+                      : "—"}
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="label">Orders משוער {r.year}</div>
+                  <div className="value">{fmtNum(r.ordersImpliedMUSD, 0)} מ״ד $</div>
+                </div>
+              </Fragment>
+            ))}
+          </div>
+          <div className="conversion-forecast-chart conversion-forecast-chart--block">
+            <h3 className="section-subh">
+              גרף: בפועל, התאמה ותחזית {conversionModel.forecast.forecastYear}–
+              {conversionModel.forecast.forecastEndYear}
+            </h3>
+            <p className="muted small" style={{ marginBottom: "0.5rem" }}>
+              קו כתום — חזוי המודל בשנים שיש בהן דוח מכירות; קו צהוב מקווקו — אותו מודל על טווח התחזית (מ־
+              {conversionModel.forecast.lastActualYear} ואילך). גם בלי גרף, המספרים מופיעים בטבלת התחזית למעלה.
+            </p>
+            <ConversionForecastLineChart
+              rows={conversionModel.forecast.chartRows}
+              forecastRangeLabel={`${conversionModel.forecast.forecastYear}–${conversionModel.forecast.forecastEndYear}`}
+            />
+          </div>
+          <div className="insights-box">
+            <h3 className="insights-subh">הנחות עבודה של המודל</h3>
+            <ul className="insights-list">
+              <li>מודל אגרגטיבי ברמת חברה-שנה (לא ברמת חוזה בודד), ולכן הוא מאקרו ולא תחליף ל-PMO.</li>
+              <li>התקשרויות נגזרות בעקיפין מהצבר; שינויים חשבונאיים/שערי מטבע יכולים להשפיע על האמידה.</li>
+              <li>העקומה מותאמת בחיפוש דיסקרטי (צעדי 5%) כדי לשמור על פרשנות יציבה ופשוטה.</li>
+              <li>ה-MAPE נמדד על השנים שבהן יש נתונים מלאים לדלילי העקומה שנבחרו.</li>
+            </ul>
+          </div>
+        </>
+      ) : (
+        <div className="insights-box" role="status">
+          <p className="muted" style={{ marginBottom: "0.5rem" }}>
+            אין מספיק נתונים כדי לאמוד עקומת המרה (או שחסר צבר/הכנסות בחלק מהשנים).
+          </p>
+          <p className="muted small" style={{ margin: 0 }}>
+            <strong>פירוט:</strong> {conversionModelBlockedReason(data.metrics)}
+          </p>
+        </div>
+      )}
+
       {segmentKeys.length > 0 && (
         <>
           <h2>פילוח הכנסות לפי מגזר (מיליון USD)</h2>
@@ -1482,9 +1479,6 @@ export function IaiCompanyPage() {
         </>
       )}
 
-      <h2>מגמות: שנה מול שנה ולפי נושא</h2>
-      <IaiBreakdownDemos metrics={data.metrics} />
-
       <h2>קבצי דוח בתיקייה</h2>
       <p className="muted">
         הנתיבים המלאים יחסית לתיקיית <strong>דוחות כספיים</strong> (לא מוטמעים בדפדפן).
@@ -1511,6 +1505,8 @@ export function IaiCompanyPage() {
           ))}
         </tbody>
       </table>
+
+      <MetricsDataDisclaimer slug="iai" />
     </>
   );
 }

@@ -23,6 +23,7 @@ import {
 import { deriveAutoInsights } from "../lib/deriveAutoInsights";
 import type { IaiPayload, MetricRow } from "../types/iai";
 import lockheedBundled from "../../public/data/lockheed.json";
+import { MetricsDataDisclaimer } from "../components/MetricsDataDisclaimer";
 import { SiteNav } from "../components/SiteNav";
 
 /** כש־fetch ל־/data/lockheed.json נכשל (file://, שרת בלי public), מציגים את העותק מהבילד */
@@ -253,13 +254,6 @@ export function LockheedCompanyPage() {
         </div>
       )}
 
-      <div className="disclaimer">
-        הנתונים המספריים והתובנות הידניות נשמרים ב־
-        <span className="file-path">public/data/lockheed-metrics.json</span> (מפתחות{" "}
-        <code>rows</code>, <code>insights</code>) — הוראות בעמוד <strong>README</strong>{" "}
-        בתיקיית האתר. רשימת הקבצים נוצרת עם <code>npm run data:lockheed</code>.
-      </div>
-
       <h2>תקציר מספרי (לפי שנה אחרונה עם נתונים)</h2>
       {latest ? (
         <div className="card-grid">
@@ -435,42 +429,6 @@ export function LockheedCompanyPage() {
         </>
       ) : null}
 
-      <h2>תובנות</h2>
-      <p className="muted">
-        <strong>ניסוח ידני</strong> — מערך <code>insights</code> באותו קובץ JSON.{" "}
-        <strong>אוטומטי</strong> — משפטים קצרים שנגזרים מהסדרה (CAGR הכנסות, שנה עם
-        צמיחה חזקה בהכנסות, שינוי ברווח נקי ממכירות, מגמה ביחס מלאי להכנסות). אינו
-        מחליף ניתוח מהדוחות המלאים.
-      </p>
-      {(data.insights && data.insights.length > 0) || autoInsights.length > 0 ? (
-        <div className="insights-box">
-          {data.insights && data.insights.length > 0 && (
-            <>
-              <h3 className="insights-subh">מהקובץ (עריכה ידנית)</h3>
-              <ul className="insights-list">
-                {data.insights.map((t, i) => (
-                  <li key={`ins-manual-${i}`}>{t}</li>
-                ))}
-              </ul>
-            </>
-          )}
-          {autoInsights.length > 0 && (
-            <>
-              <h3 className="insights-subh">אוטומטי מהמספרים</h3>
-              <ul className="insights-list insights-list--auto">
-                {autoInsights.map((t, i) => (
-                  <li key={`ins-auto-${i}`}>{t}</li>
-                ))}
-              </ul>
-            </>
-          )}
-        </div>
-      ) : (
-        <p className="muted">
-          אין תובנות ידניות; אין מספיק נתוני הכנסות לחישוב תובנות אוטומטיות.
-        </p>
-      )}
-
       <h2>מגמות לאורך שנים</h2>
       <p className="muted">{data.currencyNote}</p>
       {chartHasData ? (
@@ -614,6 +572,9 @@ export function LockheedCompanyPage() {
       ) : (
         <p className="muted">אין עדיין נקודות לגרף — מלא ערכים בקובץ המטריקות.</p>
       )}
+
+      <h2>מגמות: שנה מול שנה ולפי נושא</h2>
+      <IaiBreakdownDemos metrics={data.metrics} />
 
       {(cashFlowChartHasData ||
         balanceChartHasData ||
@@ -970,6 +931,42 @@ export function LockheedCompanyPage() {
         </table>
       </div>
 
+      <h2>תובנות</h2>
+      <p className="muted">
+        <strong>ניסוח ידני</strong> — מערך <code>insights</code> באותו קובץ JSON.{" "}
+        <strong>אוטומטי</strong> — משפטים קצרים שנגזרים מהסדרה (CAGR הכנסות, שנה עם
+        צמיחה חזקה בהכנסות, שינוי ברווח נקי ממכירות, מגמה ביחס מלאי להכנסות). אינו
+        מחליף ניתוח מהדוחות המלאים.
+      </p>
+      {(data.insights && data.insights.length > 0) || autoInsights.length > 0 ? (
+        <div className="insights-box">
+          {data.insights && data.insights.length > 0 && (
+            <>
+              <h3 className="insights-subh">מהקובץ (עריכה ידנית)</h3>
+              <ul className="insights-list">
+                {data.insights.map((t, i) => (
+                  <li key={`ins-manual-${i}`}>{t}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {autoInsights.length > 0 && (
+            <>
+              <h3 className="insights-subh">אוטומטי מהמספרים</h3>
+              <ul className="insights-list insights-list--auto">
+                {autoInsights.map((t, i) => (
+                  <li key={`ins-auto-${i}`}>{t}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
+      ) : (
+        <p className="muted">
+          אין תובנות ידניות; אין מספיק נתוני הכנסות לחישוב תובנות אוטומטיות.
+        </p>
+      )}
+
       {segmentKeys.length > 0 && (
         <>
           <h2>פילוח הכנסות לפי מגזר (מיליון USD)</h2>
@@ -1002,9 +999,6 @@ export function LockheedCompanyPage() {
         </>
       )}
 
-      <h2>מגמות: שנה מול שנה ולפי נושא</h2>
-      <IaiBreakdownDemos metrics={data.metrics} />
-
       <h2>קבצי דוח בתיקייה</h2>
       <p className="muted">
         הנתיבים המלאים יחסית לתיקיית <strong>דוחות כספיים</strong> (לא מוטמעים בדפדפן).
@@ -1031,6 +1025,8 @@ export function LockheedCompanyPage() {
           ))}
         </tbody>
       </table>
+
+      <MetricsDataDisclaimer slug="lockheed" />
     </>
   );
 }
