@@ -571,6 +571,11 @@ tr:hover td {
   background: linear-gradient(145deg, rgba(26, 35, 50, 0.95), rgba(36, 28, 50, 0.9));
 }
 
+.home-company-link--ai {
+  border-color: rgba(61, 214, 195, 0.4);
+  background: linear-gradient(145deg, rgba(26, 40, 42, 0.95), rgba(22, 35, 40, 0.92));
+}
+
 .compare-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -1134,4 +1139,172 @@ tr:hover td {
 
 .compare-company-picker__btn:hover {
   border-color: rgba(148, 163, 184, 0.75);
+}
+
+/* דף בינה מלאכותית בדוחות — יישור עברית לימין במפורש */
+.ai-defense-page {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
+
+.ai-defense-header {
+  margin-bottom: 0.5rem;
+  text-align: right;
+}
+
+.ai-defense-header h1 {
+  text-align: right;
+}
+
+.ai-defense-intro {
+  max-width: 65ch;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+}
+
+.ai-defense-disclaimer {
+  margin: 0.75rem 0 0;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: rgba(240, 113, 120, 0.08);
+  border: 1px solid rgba(240, 113, 120, 0.22);
+  border-radius: 8px;
+  text-align: right;
+}
+
+.ai-defense-page .compare-toolbar {
+  direction: rtl;
+  text-align: right;
+}
+
+.ai-defense-company-link {
+  text-decoration: none;
+  font-size: 0.88rem;
+  text-align: right;
+}
+
+.ai-defense-company-link:hover {
+  color: var(--accent);
+}
+
+.ai-defense-trend {
+  margin: 1rem 0 1.5rem;
+  text-align: right;
+}
+
+.ai-defense-trend h2 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.1rem;
+  border-right-color: var(--accent2);
+  text-align: right;
+}
+
+.ai-defense-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.ai-defense-year {
+  margin: 0;
+  text-align: right;
+}
+
+.ai-defense-year__title {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  border-right: 3px solid var(--accent);
+  padding-right: 0.5rem;
+  text-align: right;
+}
+
+.ai-defense-year__section {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.ai-defense-year__h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: right;
+}
+
+.ai-defense__text {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  text-align: right;
+}
+
+.ai-defense__empty {
+  margin: 0;
+  font-size: 0.88rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.ai-defense-forward {
+  margin-top: 0.5rem;
+  padding: 0.75rem 0.85rem;
+  background: rgba(61, 214, 195, 0.08);
+  border: 1px solid rgba(61, 214, 195, 0.25);
+  border-radius: 8px;
+  text-align: right;
+}
+
+.ai-defense-forward__label {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent2);
+  text-align: right;
+}
+
+.ai-defense-sources {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(51, 65, 85, 0.45);
+  text-align: right;
+}
+
+.ai-defense-sources__title {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-align: right;
+}
+
+.ai-defense-sources__list {
+  margin: 0;
+  padding: 0 1.1rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text);
+  text-align: right;
+}
+
+.ai-defense-sources__doc {
+  font-weight: 500;
+}
+
+.ai-defense-foot {
+  margin-top: 2rem;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.ai-defense-page .file-path {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+  display: inline-block;
 }

@@ -16,12 +16,14 @@ import { L3harrisCompanyPage } from "./pages/L3harrisCompanyPage";
 import { BoeingCompanyPage } from "./pages/BoeingCompanyPage";
 import { EmbraerCompanyPage } from "./pages/EmbraerCompanyPage";
 import { SaabCompanyPage } from "./pages/SaabCompanyPage";
+import { AiDefensePage } from "./pages/AiDefensePage";
 
 export default function App() {
   return (
     <div className="app-root">
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/ai-defense" element={<AiDefensePage />} />
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/company/iai" element={<IaiCompanyPage />} />
         <Route path="/company/elbit" element={<ElbitCompanyPage />} />

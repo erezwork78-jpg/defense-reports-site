@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 const links = [
   { to: "/", label: "בית" },
   { to: "/compare", label: "השוואה" },
+  { to: "/ai-defense", label: "AI בדוחות" },
   { to: "/company/iai", label: "תע״א" },
   { to: "/company/elbit", label: "אלביט" },
   { to: "/company/rafael", label: "רפאל" },

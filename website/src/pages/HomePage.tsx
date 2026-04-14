@@ -19,6 +19,12 @@ export function HomePage() {
           </Link>
         </li>
         <li>
+          <Link to="/ai-defense" className="home-company-link home-company-link--ai">
+            <span className="home-company-name">בינה מלאכותית בדוחות (2023–2025)</span>
+            <span className="muted home-company-path">סיכומים מהדוחות — מגמה איכותנית, ללא מדדים</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/company/iai" className="home-company-link">
             <span className="home-company-name">תעשייה אווירית (תע״א)</span>
             <span className="muted home-company-path">01. IAI</span>
