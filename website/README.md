@@ -35,6 +35,14 @@ npm run build
 npm run preview
 ```
 
+ניווט ישיר לכתובות כמו `/org-finance` דורש שרת שמחזיר את `index.html` לכל נתיב (SPA). אחרי `npm run build` נוצר גם `dist/404.html` (העתק של `index.html`) לפריסה ב־GitHub Pages. לשרת מקומי סטטי עם fallback:
+
+```bash
+npm run serve:dist
+```
+
+ואז לפתוח `http://localhost:4173/org-finance` (או `/org-finance-questions` — שני הנתיבים פעילים).
+
 ## כיוון עברית (RTL)
 
 ב־`index.html` מוגדרים `dir="rtl"` ו־`lang="he"`. עיצוב בסיסי ב־`src/index.css`.

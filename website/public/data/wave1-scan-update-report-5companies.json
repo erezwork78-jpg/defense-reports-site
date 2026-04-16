@@ -1,0 +1,563 @@
+{
+  "companies": [
+    {
+      "slug": "iai",
+      "nameHe": "תעשייה אווירית",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "employees",
+          "value": 3515,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "value": 3358,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "value": 7521,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "value": 7357,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "value": 7191,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2025,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        }
+      ],
+      "updatedCount": 5,
+      "failedCount": 1
+    },
+    {
+      "slug": "elbit",
+      "nameHe": "אלביט",
+      "updated": [],
+      "failed": [],
+      "updatedCount": 0,
+      "failedCount": 0
+    },
+    {
+      "slug": "rafael",
+      "nameHe": "רפאל",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "employees",
+          "value": 2000,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "value": 8019,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "value": 1,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "value": 8266,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "totalLiabilitiesMUSD",
+          "value": 1,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "equityMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "value": 4202,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        }
+      ],
+      "updatedCount": 17,
+      "failedCount": 3
+    },
+    {
+      "slug": "lockheed",
+      "nameHe": "לוקהיד מרטין",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "researchDevelopmentMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "value": 10959,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "value": 31,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "researchDevelopmentMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "value": 52,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "value": 122000,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "value": 45,
+          "format": "דף אינטרנט"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "employees",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        }
+      ],
+      "updatedCount": 18,
+      "failedCount": 13
+    },
+    {
+      "slug": "rtx",
+      "nameHe": "RTX",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2020,
+          "field": "employees",
+          "value": 71000,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "value": 7832,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "value": 30000,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "value": 31000,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD",
+          "value": 160,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "value": 202,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "value": 32000,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "value": 34000,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "value": 202,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהטקסט"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהטקסט"
+        }
+      ],
+      "updatedCount": 25,
+      "failedCount": 3
+    }
+  ],
+  "updatedTotal": 65
+}

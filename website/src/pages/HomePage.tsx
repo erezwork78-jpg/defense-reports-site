@@ -25,6 +25,12 @@ export function HomePage() {
           </Link>
         </li>
         <li>
+          <Link to="/org-finance" className="home-company-link home-company-link--org-finance">
+            <span className="home-company-name">שאלות ארגון כספים (ניסוי 5 חברות)</span>
+            <span className="muted home-company-path">מימון וחוב 2025 · מו״פ ו־CAPEX · טבלה 2020–2025</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/company/iai" className="home-company-link">
             <span className="home-company-name">תעשייה אווירית (תע״א)</span>
             <span className="muted home-company-path">01. IAI</span>

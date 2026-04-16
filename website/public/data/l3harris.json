@@ -50,9 +50,9 @@
       "totalLiabilitiesMUSD": 15390,
       "equityMUSD": 19319,
       "capexMUSD": 342,
-      "researchDevelopmentMUSD": null,
+      "researchDevelopmentMUSD": 202,
       "ebitdaMUSD": 3076,
-      "employees": null,
+      "employees": 19000,
       "notes": "L3HARRIS - 2021.pdf — MD&A ותזרים; רווח תפעולי מחושב מלפני מס (2283) פחות non-operating (439) ועוד ריבית (265)."
     },
     {
@@ -71,7 +71,7 @@
       "capexMUSD": 252,
       "researchDevelopmentMUSD": null,
       "ebitdaMUSD": 2065,
-      "employees": null,
+      "employees": 46000,
       "notes": "L3Harris - 2024 Annual Report.pdf (עמודות Dec 30, 2022); צבר מ־SEC-10K-FY2023-hrs-20231229.htm; מאזן לא חולץ."
     },
     {
@@ -88,10 +88,11 @@
       "totalLiabilitiesMUSD": 22858,
       "equityMUSD": 18829,
       "capexMUSD": 449,
-      "researchDevelopmentMUSD": null,
+      "researchDevelopmentMUSD": 160,
       "ebitdaMUSD": 2592,
-      "employees": null,
-      "notes": "L3Harris - 2024 Annual Report.pdf + טקסט צבר ב־10-K 2023."
+      "employees": 50000,
+      "notes": "L3Harris - 2024 Annual Report.pdf + טקסט צבר ב־10-K 2023.",
+      "generalAdminMUSD": 160
     },
     {
       "year": 2024,
@@ -107,10 +108,11 @@
       "totalLiabilitiesMUSD": 22422,
       "equityMUSD": 19579,
       "capexMUSD": 408,
-      "researchDevelopmentMUSD": null,
+      "researchDevelopmentMUSD": 202,
       "ebitdaMUSD": 3207,
-      "employees": null,
-      "notes": "L3Harris - 2024 Annual Report.pdf (עמודות Jan 3, 2025 / Dec 29, 2023)."
+      "employees": 47000,
+      "notes": "L3Harris - 2024 Annual Report.pdf (עמודות Jan 3, 2025 / Dec 29, 2023).",
+      "generalAdminMUSD": 202
     },
     {
       "year": 2025,
@@ -126,10 +128,11 @@
       "totalLiabilitiesMUSD": 21560,
       "equityMUSD": 19635,
       "capexMUSD": 424,
-      "researchDevelopmentMUSD": null,
+      "researchDevelopmentMUSD": 202,
       "ebitdaMUSD": 3334,
       "employees": 45000,
-      "notes": "L3Harris_2025_Annual_Report.pdf; מאזן לסוף שנת 2025 (January 2, 2026 בכותרת הדוח); עובדים ~45,000."
+      "notes": "L3Harris_2025_Annual_Report.pdf; מאזן לסוף שנת 2025 (January 2, 2026 בכותרת הדוח); עובדים ~45,000.",
+      "generalAdminMUSD": 202
     }
   ],
   "files": [

@@ -4,6 +4,7 @@ const links = [
   { to: "/", label: "בית" },
   { to: "/compare", label: "השוואה" },
   { to: "/ai-defense", label: "AI בדוחות" },
+  { to: "/org-finance", label: "שאלות ארגון כספים" },
   { to: "/company/iai", label: "תע״א" },
   { to: "/company/elbit", label: "אלביט" },
   { to: "/company/rafael", label: "רפאל" },

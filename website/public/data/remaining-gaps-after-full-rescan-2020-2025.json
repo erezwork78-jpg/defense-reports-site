@@ -1,0 +1,569 @@
+{
+  "title": "פערים אחרי עדכון מלא מהדוחות המקומיים",
+  "scopeYears": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "companies": [
+    {
+      "slug": "bae",
+      "nameHe": "BAE Systems",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2021": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2022": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2023": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "capexMUSD",
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 51.0,
+      "requiredMissingCount": 47
+    },
+    {
+      "slug": "thales",
+      "nameHe": "טלס",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "missingByYear": {
+        "2020": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "generalAdminMUSD"
+        ],
+        "2021": [
+          "backlogMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "generalAdminMUSD"
+        ],
+        "2022": [
+          "investingCashFlowMUSD",
+          "totalAssetsMUSD"
+        ],
+        "2023": [
+          "investingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "investingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 72.9,
+      "requiredMissingCount": 26
+    },
+    {
+      "slug": "boeing",
+      "nameHe": "בואינג",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "ebitdaMUSD",
+          "investingCashFlowMUSD",
+          "equityMUSD"
+        ],
+        "2021": [
+          "grossMarginPct",
+          "ebitdaMUSD",
+          "investingCashFlowMUSD"
+        ],
+        "2022": [
+          "grossMarginPct",
+          "ebitdaMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "equityMUSD"
+        ],
+        "2023": [
+          "ebitdaMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "equityMUSD"
+        ],
+        "2024": [
+          "ebitdaMUSD",
+          "investingCashFlowMUSD",
+          "equityMUSD"
+        ],
+        "2025": [
+          "netIncomeMUSD",
+          "ebitdaMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 74.0,
+      "requiredMissingCount": 25
+    },
+    {
+      "slug": "leonardo",
+      "nameHe": "לאונרדו",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "capexMUSD",
+          "generalAdminMUSD"
+        ],
+        "2021": [
+          "investingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "employees"
+        ],
+        "2022": [
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "investingCashFlowMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 80.2,
+      "requiredMissingCount": 19
+    },
+    {
+      "slug": "rafael",
+      "nameHe": "רפאל מערכות לחימה מתקדמות",
+      "missingYears": [
+        2021,
+        2023,
+        2025
+      ],
+      "missingByYear": {
+        "2021": [
+          "totalAssetsMUSD"
+        ],
+        "2023": [
+          "totalAssetsMUSD"
+        ],
+        "2025": [
+          "revenueMUSD",
+          "backlogMUSD",
+          "netIncomeMUSD",
+          "operatingIncomeMUSD",
+          "grossMarginPct",
+          "ebitdaMUSD",
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "capexMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ]
+      },
+      "requiredCoveragePct": 81.2,
+      "requiredMissingCount": 18
+    },
+    {
+      "slug": "rheinmetall",
+      "nameHe": "ריינמטאל",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "capexMUSD",
+          "generalAdminMUSD"
+        ],
+        "2021": [
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "generalAdminMUSD"
+        ],
+        "2022": [
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "operatingCashFlowMUSD",
+          "investingCashFlowMUSD",
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 81.2,
+      "requiredMissingCount": 18
+    },
+    {
+      "slug": "embraer",
+      "nameHe": "אמבראיר",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "backlogMUSD",
+          "ebitdaMUSD",
+          "equityMUSD",
+          "capexMUSD"
+        ],
+        "2021": [
+          "backlogMUSD",
+          "ebitdaMUSD",
+          "operatingCashFlowMUSD",
+          "capexMUSD",
+          "employees"
+        ],
+        "2022": [
+          "ebitdaMUSD",
+          "operatingCashFlowMUSD",
+          "equityMUSD",
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "backlogMUSD",
+          "employees"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 82.3,
+      "requiredMissingCount": 17
+    },
+    {
+      "slug": "saab",
+      "nameHe": "סאאב",
+      "missingYears": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2020": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2021": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2022": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 88.5,
+      "requiredMissingCount": 11
+    },
+    {
+      "slug": "gd",
+      "nameHe": "ג׳נרל דיינמיקס",
+      "missingYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2021": [
+          "backlogMUSD",
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2022": [
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 89.6,
+      "requiredMissingCount": 10
+    },
+    {
+      "slug": "l3harris",
+      "nameHe": "L3Harris Technologies",
+      "missingYears": [
+        2020,
+        2021,
+        2022
+      ],
+      "missingByYear": {
+        "2020": [
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD",
+          "employees"
+        ],
+        "2021": [
+          "generalAdminMUSD"
+        ],
+        "2022": [
+          "totalAssetsMUSD",
+          "totalLiabilitiesMUSD",
+          "equityMUSD",
+          "researchDevelopmentMUSD",
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 90.6,
+      "requiredMissingCount": 9
+    },
+    {
+      "slug": "lockheed",
+      "nameHe": "לוקהיד מרטין",
+      "missingYears": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "missingByYear": {
+        "2021": [
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD",
+          "generalAdminMUSD"
+        ],
+        "2022": [
+          "investingCashFlowMUSD",
+          "financingCashFlowMUSD"
+        ],
+        "2023": [
+          "totalLiabilitiesMUSD",
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 91.7,
+      "requiredMissingCount": 8
+    },
+    {
+      "slug": "northrop",
+      "nameHe": "נורת׳רופ גראמן",
+      "missingYears": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missingByYear": {
+        "2022": [
+          "generalAdminMUSD"
+        ],
+        "2023": [
+          "generalAdminMUSD"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ],
+        "2025": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 95.8,
+      "requiredMissingCount": 4
+    },
+    {
+      "slug": "rtx",
+      "nameHe": "RTX",
+      "missingYears": [
+        2020,
+        2021,
+        2024
+      ],
+      "missingByYear": {
+        "2020": [
+          "ebitdaMUSD"
+        ],
+        "2021": [
+          "totalLiabilitiesMUSD"
+        ],
+        "2024": [
+          "generalAdminMUSD"
+        ]
+      },
+      "requiredCoveragePct": 96.9,
+      "requiredMissingCount": 3
+    },
+    {
+      "slug": "iai",
+      "nameHe": "תעשייה אווירית",
+      "missingYears": [
+        2025
+      ],
+      "missingByYear": {
+        "2025": [
+          "capexMUSD"
+        ]
+      },
+      "requiredCoveragePct": 99.0,
+      "requiredMissingCount": 1
+    },
+    {
+      "slug": "elbit",
+      "nameHe": "אלביט מערכות",
+      "missingYears": [],
+      "missingByYear": {},
+      "requiredCoveragePct": 100.0,
+      "requiredMissingCount": 0
+    }
+  ]
+}

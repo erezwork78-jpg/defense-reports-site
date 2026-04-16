@@ -1,0 +1,561 @@
+{
+  "companies": [
+    {
+      "slug": "bae",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "employees"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "employees"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "employees"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "employees"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 47
+    },
+    {
+      "slug": "thales",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "employees"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "capexMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "employees"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 38
+    },
+    {
+      "slug": "boeing",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "grossMarginPct"
+        },
+        {
+          "year": 2021,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "grossMarginPct"
+        },
+        {
+          "year": 2022,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "netIncomeMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "investingCashFlowMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "financingCashFlowMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 26
+    },
+    {
+      "slug": "saab",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2020,
+          "field": "employees"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "ebitdaMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "totalAssetsMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "equityMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD"
+        },
+        {
+          "year": 2024,
+          "field": "employees"
+        },
+        {
+          "year": 2025,
+          "field": "totalLiabilitiesMUSD"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 20
+    }
+  ],
+  "updatedTotal": 0
+}

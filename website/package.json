@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
+    "serve:dist": "npx --yes serve dist -s -l 4173",
     "data:iai": "python3 scripts/build_iai_data.py",
     "data:elbit": "python3 scripts/build_elbit_data.py",
     "data:rafael": "python3 scripts/build_rafael_data.py",

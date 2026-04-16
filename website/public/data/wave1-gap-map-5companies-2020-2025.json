@@ -1,0 +1,1981 @@
+{
+  "title": "גל 1: פערים אחרי סריקה מלאה",
+  "scopeYears": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "companies": [
+    {
+      "slug": "rafael",
+      "nameHe": "רפאל",
+      "years": [
+        {
+          "year": 2020,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 5,
+          "present": 17,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 2,
+          "allowedMissing": 5,
+          "present": 15,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך נכסים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 5,
+          "present": 17,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 1,
+          "allowedMissing": 5,
+          "present": 16,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך נכסים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 5,
+          "present": 17,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "reportFormatsText": "לא אותר",
+          "requiredMissing": 16,
+          "allowedMissing": 6,
+          "present": 0,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 2,
+              "requiredMissing": [
+                {
+                  "fieldHe": "הכנסות",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "צבר הזמנות",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 4,
+              "requiredMissing": [
+                {
+                  "fieldHe": "רווח נקי",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "רווח תפעולי",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "שיעור רווח גולמי",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "רווח תפעולי לפני פחת והפחתות",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 3,
+              "requiredMissing": [
+                {
+                  "fieldHe": "תזרים מפעילות שוטפת",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "תזרים מהשקעות",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "תזרים ממימון",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 3,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך נכסים",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "סך התחייבויות",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "הון עצמי",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 3,
+              "requiredMissing": [
+                {
+                  "fieldHe": "השקעות בנכסים קבועים",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "מחקר ופיתוח",
+                  "reportFormatsText": "לא אותר"
+                },
+                {
+                  "fieldHe": "הנהלה וכלליות",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 1,
+              "presentCount": 0
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "לא אותר"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "requiredFieldsChecked": 96,
+        "requiredMissingCount": 19,
+        "requiredCoveragePct": 80.2,
+        "allowedMissingCount": 31
+      }
+    },
+    {
+      "slug": "lockheed",
+      "nameHe": "לוקהיד מרטין",
+      "years": [
+        {
+          "year": 2020,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 1,
+          "allowedMissing": 6,
+          "present": 15,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "דף אינטרנט"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 4,
+          "allowedMissing": 6,
+          "present": 12,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 2,
+              "requiredMissing": [
+                {
+                  "fieldHe": "תזרים מהשקעות",
+                  "reportFormatsText": "PDF"
+                },
+                {
+                  "fieldHe": "תזרים ממימון",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "הנהלה וכלליות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 1,
+              "presentCount": 2
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 4,
+          "allowedMissing": 6,
+          "present": 12,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 2,
+              "requiredMissing": [
+                {
+                  "fieldHe": "תזרים מהשקעות",
+                  "reportFormatsText": "PDF"
+                },
+                {
+                  "fieldHe": "תזרים ממימון",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך התחייבויות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 2,
+          "allowedMissing": 6,
+          "present": 14,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך התחייבויות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "הנהלה וכלליות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 1,
+              "presentCount": 2
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 2,
+          "allowedMissing": 6,
+          "present": 14,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "הנהלה וכלליות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 1,
+              "presentCount": 2
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "מספר עובדים",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 0
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 0,
+          "allowedMissing": 6,
+          "present": 16,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "requiredFieldsChecked": 96,
+        "requiredMissingCount": 13,
+        "requiredCoveragePct": 86.5,
+        "allowedMissingCount": 36
+      }
+    },
+    {
+      "slug": "rtx",
+      "nameHe": "RTX",
+      "years": [
+        {
+          "year": 2020,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 1,
+          "allowedMissing": 6,
+          "present": 15,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "רווח תפעולי לפני פחת והפחתות",
+                  "reportFormatsText": "דף אינטרנט"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 1,
+          "allowedMissing": 6,
+          "present": 15,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "סך התחייבויות",
+                  "reportFormatsText": "PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 0,
+          "allowedMissing": 6,
+          "present": 16,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 0,
+          "allowedMissing": 6,
+          "present": 16,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "reportFormatsText": "דף אינטרנט",
+          "requiredMissing": 1,
+          "allowedMissing": 6,
+          "present": 15,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "הנהלה וכלליות",
+                  "reportFormatsText": "דף אינטרנט"
+                }
+              ],
+              "allowedMissingCount": 1,
+              "presentCount": 2
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 6,
+          "present": 16,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 1,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 5,
+              "presentCount": 0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "requiredFieldsChecked": 96,
+        "requiredMissingCount": 3,
+        "requiredCoveragePct": 96.9,
+        "allowedMissingCount": 36
+      }
+    },
+    {
+      "slug": "iai",
+      "nameHe": "תעשייה אווירית",
+      "years": [
+        {
+          "year": 2020,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "reportFormatsText": "וורד + PDF",
+          "requiredMissing": 1,
+          "allowedMissing": 0,
+          "present": 21,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 1,
+              "requiredMissing": [
+                {
+                  "fieldHe": "השקעות בנכסים קבועים",
+                  "reportFormatsText": "וורד + PDF"
+                }
+              ],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "requiredFieldsChecked": 96,
+        "requiredMissingCount": 1,
+        "requiredCoveragePct": 99.0,
+        "allowedMissingCount": 0
+      }
+    },
+    {
+      "slug": "elbit",
+      "nameHe": "אלביט",
+      "years": [
+        {
+          "year": 2020,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "reportFormatsText": "PDF",
+          "requiredMissing": 0,
+          "allowedMissing": 0,
+          "present": 22,
+          "categories": [
+            {
+              "category": "הכנסות וצבר",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 2
+            },
+            {
+              "category": "רווחיות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "תזרים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "מאזן",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 3
+            },
+            {
+              "category": "השקעות והוצאות",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 4
+            },
+            {
+              "category": "כוח אדם",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 1
+            },
+            {
+              "category": "מכירות לפי אזורים",
+              "requiredMissingCount": 0,
+              "requiredMissing": [],
+              "allowedMissingCount": 0,
+              "presentCount": 5
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "requiredFieldsChecked": 96,
+        "requiredMissingCount": 0,
+        "requiredCoveragePct": 100.0,
+        "allowedMissingCount": 0
+      }
+    }
+  ]
+}

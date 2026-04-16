@@ -576,6 +576,11 @@ tr:hover td {
   background: linear-gradient(145deg, rgba(26, 40, 42, 0.95), rgba(22, 35, 40, 0.92));
 }
 
+.home-company-link--org-finance {
+  border-color: rgba(251, 191, 36, 0.4);
+  background: linear-gradient(145deg, rgba(40, 32, 22, 0.95), rgba(30, 28, 22, 0.92));
+}
+
 .compare-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -1303,6 +1308,152 @@ tr:hover td {
 }
 
 .ai-defense-page .file-path {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+  display: inline-block;
+}
+
+/* דף שאלות ארגון כספים */
+.org-finance-page {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
+
+.org-finance-header {
+  margin-bottom: 0.5rem;
+}
+
+.org-finance-intro {
+  max-width: 70ch;
+}
+
+.org-finance-disclaimer {
+  margin: 0.75rem 0 0;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: rgba(240, 113, 120, 0.08);
+  border: 1px solid rgba(240, 113, 120, 0.22);
+  border-radius: 8px;
+}
+
+.org-finance-page .compare-toolbar {
+  direction: rtl;
+  text-align: right;
+}
+
+.org-finance-company-link {
+  text-decoration: none;
+  font-size: 0.88rem;
+}
+
+.org-finance-company-link:hover {
+  color: var(--accent);
+}
+
+.org-finance-block {
+  margin: 1rem 0;
+  padding: 1rem 1.1rem;
+  text-align: right;
+}
+
+.org-finance-block h2 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.1rem;
+  border-right-color: var(--accent2);
+}
+
+.org-finance-h3 {
+  margin: 1rem 0 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.org-finance-lead {
+  margin: 0 0 0.65rem;
+  color: var(--text);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.org-finance-bullets,
+.org-finance-lines {
+  margin: 0 0 0.75rem;
+  padding: 0 1.15rem 0 0;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.org-finance-text {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.org-finance-unit-note {
+  margin: 0 0 0.75rem;
+  font-size: 0.88rem;
+}
+
+.org-finance-table-wrap {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
+
+.org-finance-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.org-finance-table th,
+.org-finance-table td {
+  padding: 0.45rem 0.6rem;
+  border-bottom: 1px solid rgba(51, 65, 85, 0.55);
+  text-align: right;
+}
+
+.org-finance-table th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.org-finance-table tbody tr:hover td {
+  background: rgba(79, 158, 255, 0.06);
+}
+
+.org-finance-sources {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(51, 65, 85, 0.45);
+}
+
+.org-finance-sources__title {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.org-finance-sources__list {
+  margin: 0;
+  padding: 0 1.1rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.org-finance-foot {
+  margin-top: 2rem;
+  font-size: 0.82rem;
+}
+
+.org-finance-page .file-path {
   direction: ltr;
   unicode-bidi: isolate;
   text-align: left;

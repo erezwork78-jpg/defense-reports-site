@@ -1,0 +1,1874 @@
+{
+  "title": "מיפוי פערי נתונים לדף ההשוואה",
+  "scopeYears": [
+    2024,
+    2025
+  ],
+  "companies": [
+    {
+      "slug": "boeing",
+      "nameHe": "בואינג",
+      "missingCount": 36,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [
+            {
+              "field": "netIncomeMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "רווח נקי"
+            },
+            {
+              "field": "grossMarginPct",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיעור רווח גולמי"
+            },
+            {
+              "field": "ebitdaMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "רווח תפעולי לפני פחת והפחתות"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "תזרים",
+          "missing": [
+            {
+              "field": "investingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים מהשקעות"
+            },
+            {
+              "field": "financingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים ממימון"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "capexMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "השקעות בנכסים קבועים"
+            },
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 8
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "bae",
+      "nameHe": "BAE Systems",
+      "missingCount": 33,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [
+            {
+              "field": "backlogMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "צבר הזמנות"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [
+            {
+              "field": "operatingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים מפעילות שוטפת"
+            },
+            {
+              "field": "investingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים מהשקעות"
+            },
+            {
+              "field": "financingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים ממימון"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "capexMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "השקעות בנכסים קבועים"
+            },
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 8
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "leonardo",
+      "nameHe": "לאונרדו",
+      "missingCount": 25,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [
+            {
+              "field": "backlogMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "צבר הזמנות"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [
+            {
+              "field": "operatingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים מפעילות שוטפת"
+            },
+            {
+              "field": "investingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים מהשקעות"
+            },
+            {
+              "field": "financingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים ממימון"
+            }
+          ],
+          "missingCount": 3
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 3
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "capexMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "השקעות בנכסים קבועים"
+            },
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 7
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "saab",
+      "nameHe": "סאאב",
+      "missingCount": 24,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [
+            {
+              "field": "ebitdaMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "רווח תפעולי לפני פחת והפחתות"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "thales",
+      "nameHe": "טלס",
+      "missingCount": 23,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [
+            {
+              "field": "backlogMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "צבר הזמנות"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [
+            {
+              "field": "operatingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים מפעילות שוטפת"
+            },
+            {
+              "field": "investingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים מהשקעות"
+            },
+            {
+              "field": "financingCashFlowMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "תזרים ממימון"
+            }
+          ],
+          "missingCount": 3
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 3
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "capexMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "השקעות בנכסים קבועים"
+            },
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "embraer",
+      "nameHe": "אמבראיר",
+      "missingCount": 18,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [
+            {
+              "field": "backlogMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "צבר הזמנות"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "rheinmetall",
+      "nameHe": "ריינמטאל",
+      "missingCount": 18,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [
+            {
+              "field": "financingCashFlowMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "תזרים ממימון"
+            }
+          ],
+          "missingCount": 2
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "l3harris",
+      "nameHe": "L3Harris Technologies",
+      "missingCount": 17,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "researchDevelopmentMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מחקר ופיתוח"
+            },
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 6
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "lockheed",
+      "nameHe": "לוקהיד מרטין",
+      "missingCount": 16,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [
+            {
+              "field": "backlogMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "צבר הזמנות"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "gd",
+      "nameHe": "ג׳נרל דיינמיקס",
+      "missingCount": 15,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "northrop",
+      "nameHe": "נורת׳רופ גראמן",
+      "missingCount": 15,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "rtx",
+      "nameHe": "RTX",
+      "missingCount": 15,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "marketingSalesMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "שיווק ומכירה"
+            },
+            {
+              "field": "generalAdminMUSD",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "הנהלה וכלליות"
+            }
+          ],
+          "missingCount": 4
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024,
+                2025
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 10
+        }
+      ]
+    },
+    {
+      "slug": "rafael",
+      "nameHe": "רפאל מערכות לחימה מתקדמות",
+      "missingCount": 9,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [
+            {
+              "field": "totalAssetsMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך נכסים"
+            },
+            {
+              "field": "totalLiabilitiesMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "סך התחייבויות"
+            },
+            {
+              "field": "equityMUSD",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "הון עצמי"
+            }
+          ],
+          "missingCount": 3
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [
+            {
+              "field": "salesByRegionPct.israel",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מכירות בישראל"
+            },
+            {
+              "field": "salesByRegionPct.northAmerica",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מכירות בצפון אמריקה"
+            },
+            {
+              "field": "salesByRegionPct.europe",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מכירות באירופה"
+            },
+            {
+              "field": "salesByRegionPct.asiaPacific",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מכירות באסיה פסיפיק"
+            },
+            {
+              "field": "salesByRegionPct.restOfWorld",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מכירות בשאר העולם"
+            }
+          ],
+          "missingCount": 5
+        }
+      ]
+    },
+    {
+      "slug": "iai",
+      "nameHe": "תעשייה אווירית",
+      "missingCount": 2,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [
+            {
+              "field": "capexMUSD",
+              "missingYears": [
+                2025
+              ],
+              "fieldHe": "השקעות בנכסים קבועים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [
+            {
+              "field": "employees",
+              "missingYears": [
+                2024
+              ],
+              "fieldHe": "מספר עובדים"
+            }
+          ],
+          "missingCount": 1
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [],
+          "missingCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "elbit",
+      "nameHe": "אלביט מערכות",
+      "missingCount": 0,
+      "categories": [
+        {
+          "category": "הכנסות וצבר",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "רווחיות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "תזרים",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מאזן",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "השקעות והוצאות",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "כוח אדם",
+          "missing": [],
+          "missingCount": 0
+        },
+        {
+          "category": "מכירות לפי אזור (%)",
+          "missing": [],
+          "missingCount": 0
+        }
+      ]
+    }
+  ]
+}

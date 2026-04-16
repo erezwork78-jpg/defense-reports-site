@@ -33,8 +33,9 @@
       "capexMUSD": 967,
       "researchDevelopmentMUSD": 374,
       "ebitdaMUSD": 5011,
-      "employees": null,
-      "notes": "GD-2020-Annual-Report-Final.pdf — דוח מאוחד; צבר 31.12.2020."
+      "employees": 3000,
+      "notes": "GD-2020-Annual-Report-Final.pdf — דוח מאוחד; צבר 31.12.2020.",
+      "generalAdminMUSD": 31
     },
     {
       "year": 2021,
@@ -71,7 +72,7 @@
       "capexMUSD": 1114,
       "researchDevelopmentMUSD": 480,
       "ebitdaMUSD": 5099,
-      "employees": null,
+      "employees": 1101,
       "notes": "דוח 2024 (רווח); דוח 2023 (מאזן 31.12.2022, תזרים 2022); צבר מדוח 2023."
     },
     {
@@ -90,7 +91,7 @@
       "capexMUSD": 904,
       "researchDevelopmentMUSD": 510,
       "ebitdaMUSD": 5108,
-      "employees": null,
+      "employees": 40000,
       "notes": "2023-general-dynamics-annual-report + דוח 2024/2025 להשלמת עמודות."
     },
     {
@@ -109,7 +110,7 @@
       "capexMUSD": 916,
       "researchDevelopmentMUSD": 565,
       "ebitdaMUSD": 5682,
-      "employees": null,
+      "employees": 40000,
       "notes": "2024-Annual-Report-General-Dynamics-Corporation.pdf."
     },
     {

@@ -1,0 +1,1512 @@
+{
+  "updatedTotal": 28,
+  "companies": [
+    {
+      "slug": "bae",
+      "nameHe": "BAE Systems",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "researchDevelopmentMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "employees",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "operatingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "capexMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "researchDevelopmentMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "capexMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "operatingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "financingCashFlowMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "capexMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "researchDevelopmentMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 47
+    },
+    {
+      "slug": "boeing",
+      "nameHe": "בואינג",
+      "updated": [
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "value": 202,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "grossMarginPct",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "grossMarginPct",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "netIncomeMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 1,
+      "failedCount": 25
+    },
+    {
+      "slug": "elbit",
+      "nameHe": "אלביט מערכות",
+      "updated": [],
+      "failed": [],
+      "updatedCount": 0,
+      "failedCount": 0
+    },
+    {
+      "slug": "embraer",
+      "nameHe": "אמבראיר",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "ebitdaMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "operatingCashFlowMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "capexMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "ebitdaMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "employees",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 17
+    },
+    {
+      "slug": "gd",
+      "nameHe": "ג׳נרל דיינמיקס",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 10
+    },
+    {
+      "slug": "iai",
+      "nameHe": "תעשייה אווירית",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2025,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 1
+    },
+    {
+      "slug": "l3harris",
+      "nameHe": "L3Harris Technologies",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "researchDevelopmentMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "employees",
+          "format": "לא אותר",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF + דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 9
+    },
+    {
+      "slug": "leonardo",
+      "nameHe": "לאונרדו",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 19
+    },
+    {
+      "slug": "lockheed",
+      "nameHe": "לוקהיד מרטין",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "employees",
+          "value": 60000,
+          "format": "דף אינטרנט"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "value": 59000,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "value": 9266,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "value": 60000,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "value": 70000,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 5,
+      "failedCount": 8
+    },
+    {
+      "slug": "northrop",
+      "nameHe": "נורת׳רופ גראמן",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 4
+    },
+    {
+      "slug": "rafael",
+      "nameHe": "רפאל מערכות לחימה מתקדמות",
+      "updated": [
+        {
+          "year": 2021,
+          "field": "employees",
+          "value": 33984,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 1,
+      "failedCount": 2
+    },
+    {
+      "slug": "rheinmetall",
+      "nameHe": "ריינמטאל",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 18
+    },
+    {
+      "slug": "rtx",
+      "nameHe": "RTX",
+      "updated": [],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "דף אינטרנט",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 0,
+      "failedCount": 3
+    },
+    {
+      "slug": "saab",
+      "nameHe": "סאאב",
+      "updated": [
+        {
+          "year": 2020,
+          "field": "ebitdaMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD",
+          "value": 2174,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "value": 60568,
+          "format": "PDF"
+        },
+        {
+          "year": 2020,
+          "field": "employees",
+          "value": 18073,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "ebitdaMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "totalAssetsMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "equityMUSD",
+          "value": 99823,
+          "format": "PDF"
+        },
+        {
+          "year": 2024,
+          "field": "employees",
+          "value": 4202,
+          "format": "PDF"
+        },
+        {
+          "year": 2025,
+          "field": "totalLiabilitiesMUSD",
+          "value": 202,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2025,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 9,
+      "failedCount": 11
+    },
+    {
+      "slug": "thales",
+      "nameHe": "טלס",
+      "updated": [
+        {
+          "year": 2021,
+          "field": "researchDevelopmentMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2021,
+          "field": "employees",
+          "value": 80500,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "operatingCashFlowMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "financingCashFlowMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "totalLiabilitiesMUSD",
+          "value": 96.1,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "equityMUSD",
+          "value": 202,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "capexMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "researchDevelopmentMUSD",
+          "value": 2,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "generalAdminMUSD",
+          "value": -545,
+          "format": "PDF"
+        },
+        {
+          "year": 2022,
+          "field": "employees",
+          "value": 1202,
+          "format": "PDF"
+        },
+        {
+          "year": 2023,
+          "field": "backlogMUSD",
+          "value": 202,
+          "format": "PDF"
+        }
+      ],
+      "failed": [
+        {
+          "year": 2020,
+          "field": "backlogMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2020,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "backlogMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "operatingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "financingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "equityMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "capexMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2021,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2022,
+          "field": "totalAssetsMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2023,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "investingCashFlowMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "totalLiabilitiesMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        },
+        {
+          "year": 2024,
+          "field": "generalAdminMUSD",
+          "format": "PDF",
+          "reason": "לא אותר ודאי מהדוחות המקומיים"
+        }
+      ],
+      "updatedCount": 12,
+      "failedCount": 26
+    }
+  ]
+}

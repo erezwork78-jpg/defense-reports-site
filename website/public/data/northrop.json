@@ -34,7 +34,8 @@
       "researchDevelopmentMUSD": 1100,
       "ebitdaMUSD": 5332,
       "employees": 97000,
-      "notes": "2020-annual-report-northrop-grumman.pdf; צבר מטבלת Backlog; עובדים 97,000 מנתון סיכום."
+      "notes": "2020-annual-report-northrop-grumman.pdf; צבר מטבלת Backlog; עובדים 97,000 מנתון סיכום.",
+      "generalAdminMUSD": -53
     },
     {
       "year": 2021,
@@ -52,8 +53,9 @@
       "capexMUSD": 1415,
       "researchDevelopmentMUSD": 1100,
       "ebitdaMUSD": 6890,
-      "employees": null,
-      "notes": "דוח 2023 (רווח ותזרים); מאזן 31.12.2021 מדוח 2022; צבר מדוח 2022 (טבלה); תזרים השקעות חיובי בעיקר ממימוש עסקאות."
+      "employees": 9500,
+      "notes": "דוח 2023 (רווח ותזרים); מאזן 31.12.2021 מדוח 2022; צבר מדוח 2022 (טבלה); תזרים השקעות חיובי בעיקר ממימוש עסקאות.",
+      "generalAdminMUSD": -59
     },
     {
       "year": 2022,
@@ -71,7 +73,7 @@
       "capexMUSD": 1435,
       "researchDevelopmentMUSD": 1200,
       "ebitdaMUSD": 4943,
-      "employees": null,
+      "employees": 95000,
       "notes": "Northrop-Grumman-2022-Annual-Report + השלמות מדוח 2023/2024."
     },
     {
@@ -90,7 +92,7 @@
       "capexMUSD": 1775,
       "researchDevelopmentMUSD": 1200,
       "ebitdaMUSD": 3875,
-      "employees": null,
+      "employees": 14500,
       "notes": "NORTHROP GRUMMAN CORPORATION - 2023 Annual Report.pdf."
     },
     {
@@ -109,7 +111,7 @@
       "capexMUSD": 1767,
       "researchDevelopmentMUSD": 1100,
       "ebitdaMUSD": 5740,
-      "employees": null,
+      "employees": 7400,
       "notes": "NORTHROP GRUMMAN 2024 ANNUAL REPORT.pdf."
     },
     {

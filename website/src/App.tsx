@@ -17,6 +17,7 @@ import { BoeingCompanyPage } from "./pages/BoeingCompanyPage";
 import { EmbraerCompanyPage } from "./pages/EmbraerCompanyPage";
 import { SaabCompanyPage } from "./pages/SaabCompanyPage";
 import { AiDefensePage } from "./pages/AiDefensePage";
+import { OrgFinanceQuestionsPage } from "./pages/OrgFinanceQuestionsPage";
 
 export default function App() {
   return (
@@ -24,6 +25,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ai-defense" element={<AiDefensePage />} />
+        <Route path="/org-finance-questions" element={<OrgFinanceQuestionsPage />} />
+        <Route path="/org-finance" element={<OrgFinanceQuestionsPage />} />
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/company/iai" element={<IaiCompanyPage />} />
         <Route path="/company/elbit" element={<ElbitCompanyPage />} />
