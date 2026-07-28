@@ -250,7 +250,7 @@ export function ElbitCompanyPage() {
         <div className="disclaimer" role="status">
           מוצגים נתונים מעותק מוטמע (לא נטען הקובץ <span className="file-path">/data/elbit.json</span>).
           הרץ <code>npm run dev</code> מתוך תיקיית <code>website</code> או שרת סטטי שמגיש את תיקיית{" "}
-          <code>dist</code> כולה — כדי לראות את הקובץ העדכני אחרי <code>npm run data:elbit</code>.
+          <code>dist</code> כולה — כדי לראות את הקובץ העדכני אחרי <code>npm run data:all</code>.
         </div>
       )}
 
@@ -340,8 +340,8 @@ export function ElbitCompanyPage() {
       ) : (
         <p className="muted">
           אין עדיין ערכים מספריים — ערוך את{" "}
-          <span className="file-path">public/data/elbit-metrics.json</span> והרץ{" "}
-          <code>npm run data:elbit</code>.
+          <span className="file-path">scripts/data_source/CIQ ....xlsx</span> והרץ{" "}
+          <code>npm run data:all</code>.
         </p>
       )}
       {latest ? (

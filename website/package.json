@@ -8,21 +8,7 @@
     "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "serve:dist": "npx --yes serve dist -s -l 4173",
-    "data:iai": "python3 scripts/build_iai_data.py",
-    "data:elbit": "python3 scripts/build_elbit_data.py",
-    "data:rafael": "python3 scripts/build_rafael_data.py",
-    "data:lockheed": "python3 scripts/build_lockheed_data.py",
-    "data:rtx": "python3 scripts/build_rtx_data.py",
-    "data:leonardo": "python3 scripts/build_leonardo_data.py",
-    "data:bae": "python3 scripts/build_bae_data.py",
-    "data:rheinmetall": "python3 scripts/build_rheinmetall_data.py",
-    "data:thales": "python3 scripts/build_thales_data.py",
-    "data:gd": "python3 scripts/build_gd_data.py",
-    "data:northrop": "python3 scripts/build_northrop_data.py",
-    "data:l3harris": "python3 scripts/build_l3harris_data.py",
-    "data:boeing": "python3 scripts/build_boeing_data.py",
-    "data:embraer": "python3 scripts/build_embraer_data.py",
-    "data:saab": "python3 scripts/build_saab_data.py"
+    "data:all": "python3 scripts/build_from_ciq.py"
   },
   "dependencies": {
     "react": "^18.3.1",
