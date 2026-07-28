@@ -73,7 +73,7 @@ export function RafaelCompanyPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/rafael.json", { cache: "no-store" })
+    fetch(`${import.meta.env.BASE_URL}data/rafael.json`, { cache: "no-store" })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<IaiPayload>;

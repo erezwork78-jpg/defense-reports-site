@@ -39,7 +39,7 @@ export function OrgFinanceQuestionsPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/org-finance-questions.json")
+    fetch(`${import.meta.env.BASE_URL}data/org-finance-questions.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<OrgFinancePayload>;
@@ -70,7 +70,7 @@ export function OrgFinanceQuestionsPage() {
     let cancelled = false;
     setMetrics(null);
     setMetricsError(null);
-    fetch(`/data/${slug}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/${slug}.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<CompanyMetricsFile>;

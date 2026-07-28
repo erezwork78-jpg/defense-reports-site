@@ -73,7 +73,7 @@ export function EmbraerCompanyPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/embraer.json", { cache: "no-store" })
+    fetch(`${import.meta.env.BASE_URL}data/embraer.json`, { cache: "no-store" })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<IaiPayload>;

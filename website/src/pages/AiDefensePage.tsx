@@ -66,7 +66,7 @@ export function AiDefensePage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/ai-narratives-defense.json")
+    fetch(`${import.meta.env.BASE_URL}data/ai-narratives-defense.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<AiDefensePayload>;

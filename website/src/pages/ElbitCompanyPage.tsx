@@ -73,7 +73,7 @@ export function ElbitCompanyPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/elbit.json", { cache: "no-store" })
+    fetch(`${import.meta.env.BASE_URL}data/elbit.json`, { cache: "no-store" })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<IaiPayload>;

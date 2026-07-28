@@ -1014,22 +1014,23 @@ export function ComparePage() {
 
   useEffect(() => {
     let cancelled = false;
+    const base = import.meta.env.BASE_URL;
     const paths: Record<CompareCompanySlug, string> = {
-      iai: "/data/iai.json",
-      elbit: "/data/elbit.json",
-      rafael: "/data/rafael.json",
-      lockheed: "/data/lockheed.json",
-      rtx: "/data/rtx.json",
-      leonardo: "/data/leonardo.json",
-      bae: "/data/bae.json",
-      rheinmetall: "/data/rheinmetall.json",
-      thales: "/data/thales.json",
-      gd: "/data/gd.json",
-      northrop: "/data/northrop.json",
-      l3harris: "/data/l3harris.json",
-      boeing: "/data/boeing.json",
-      embraer: "/data/embraer.json",
-      saab: "/data/saab.json",
+      iai: `${base}data/iai.json`,
+      elbit: `${base}data/elbit.json`,
+      rafael: `${base}data/rafael.json`,
+      lockheed: `${base}data/lockheed.json`,
+      rtx: `${base}data/rtx.json`,
+      leonardo: `${base}data/leonardo.json`,
+      bae: `${base}data/bae.json`,
+      rheinmetall: `${base}data/rheinmetall.json`,
+      thales: `${base}data/thales.json`,
+      gd: `${base}data/gd.json`,
+      northrop: `${base}data/northrop.json`,
+      l3harris: `${base}data/l3harris.json`,
+      boeing: `${base}data/boeing.json`,
+      embraer: `${base}data/embraer.json`,
+      saab: `${base}data/saab.json`,
     };
     Promise.all(
       ALL_COMPARE_SLUGS.map((slug) =>
