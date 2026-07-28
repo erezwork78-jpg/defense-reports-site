@@ -1002,6 +1002,7 @@ export function ComparePage() {
   );
   const [selectedSlugs, setSelectedSlugs] = useState<CompareCompanySlug[]>(() => [...ALL_COMPARE_SLUGS]);
   const paramChartRef = useRef<HTMLDivElement>(null);
+  const [customColors, setCustomColors] = useState<Record<string, string>>({});
   const [selectedMetricId, setSelectedMetricId] = useState("revenueMUSD");
   const [scatterXId, setScatterXId] = useState("revenueMUSD");
   const [scatterYId, setScatterYId] = useState("netIncomeMUSD");
@@ -1071,9 +1072,9 @@ export function ComparePage() {
     if (!allPayloadsReady) return [];
     return orderSelectedSlugs(selectedSlugs).map((slug) => {
       const meta = COMPARE_COMPANY_META.find((c) => c.slug === slug)!;
-      return { ...meta, data: payloadBySlug[slug]! };
+      return { ...meta, color: customColors[slug] ?? meta.color, data: payloadBySlug[slug]! };
     });
-  }, [allPayloadsReady, selectedSlugs, payloadBySlug]);
+  }, [allPayloadsReady, selectedSlugs, payloadBySlug, customColors]);
 
   const overlapYears = useMemo(() => {
     if (selectedCompanies.length < 2) return [];
@@ -1502,6 +1503,33 @@ export function ComparePage() {
         </div>
         {!canCompare && (
           <p className="muted">סמנו לפחות שתי חברות כדי להפעיל השוואות וגרפים.</p>
+        )}
+        {canCompare && (
+          <div className="compare-color-picker" role="group" aria-label="בחירת צבעים לחברות">
+            <span className="compare-toolbar__label">צבעים בגרפים:</span>
+            {selectedCompanies.map((c) => (
+              <label key={c.slug} className="compare-color-picker__item">
+                <input
+                  type="color"
+                  value={c.color}
+                  onChange={(e) =>
+                    setCustomColors((prev) => ({ ...prev, [c.slug]: e.target.value }))
+                  }
+                  aria-label={`צבע עבור ${c.nameHe}`}
+                />
+                {c.shortName}
+              </label>
+            ))}
+            {Object.keys(customColors).length > 0 && (
+              <button
+                type="button"
+                className="compare-company-picker__btn"
+                onClick={() => setCustomColors({})}
+              >
+                איפוס צבעים
+              </button>
+            )}
+          </div>
         )}
       </header>
 

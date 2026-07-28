@@ -1146,6 +1146,36 @@ tr:hover td {
   border-color: rgba(148, 163, 184, 0.75);
 }
 
+.compare-color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin: 0.5rem 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid rgba(51, 65, 85, 0.55);
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.35);
+}
+
+.compare-color-picker__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.compare-color-picker__item input[type="color"] {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+}
+
 /* דף בינה מלאכותית בדוחות — יישור עברית לימין במפורש */
 .ai-defense-page {
   direction: rtl;
