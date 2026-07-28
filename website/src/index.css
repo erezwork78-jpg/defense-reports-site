@@ -1459,3 +1459,23 @@ tr:hover td {
   text-align: left;
   display: inline-block;
 }
+
+.chart-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(79, 158, 255, 0.12);
+  border: 1px solid rgba(79, 158, 255, 0.35);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.chart-download-btn:hover {
+  background: rgba(79, 158, 255, 0.22);
+}

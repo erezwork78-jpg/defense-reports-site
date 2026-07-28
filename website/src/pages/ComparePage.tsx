@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import {
   Area,
   AreaChart,
@@ -21,6 +21,7 @@ import {
   YAxis,
 } from "recharts";
 import { SiteNav } from "../components/SiteNav";
+import { ChartDownloadButton } from "../components/ChartDownloadButton";
 import {
   backlogToRevenueRatio,
   cagrAnnualPct,
@@ -1000,6 +1001,7 @@ export function ComparePage() {
     emptyPayloadRecord
   );
   const [selectedSlugs, setSelectedSlugs] = useState<CompareCompanySlug[]>(() => [...ALL_COMPARE_SLUGS]);
+  const paramChartRef = useRef<HTMLDivElement>(null);
   const [selectedMetricId, setSelectedMetricId] = useState("revenueMUSD");
   const [scatterXId, setScatterXId] = useState("revenueMUSD");
   const [scatterYId, setScatterYId] = useState("netIncomeMUSD");
@@ -1538,7 +1540,11 @@ export function ComparePage() {
                 </p>
               </div>
             )}
-            <div className="chart-wrap chart-wrap--medium">
+            <ChartDownloadButton
+              containerRef={paramChartRef}
+              fileName={`השוואת-חברות-${selDef?.label ?? selectedMetricId}`}
+            />
+            <div className="chart-wrap chart-wrap--medium" ref={paramChartRef}>
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={paramTrendRows} margin={{ top: 8, right: 16, left: 8, bottom: 8 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
